@@ -10,8 +10,8 @@
 <meta property="og:title" content="Прекрасные создания - официальный сайт фильма" />
 <meta property="og:description" content="Прекрасные создания – мистическая драма, основанная на одноименном книжном бестселлере Ками Гарсиа и Маргарет Штоль" />
 <meta property="og:type" content="movie" />
-<meta property="og:url" content="http://www.beautifulcreatures.ru" />
-<meta property="og:image" content="http://www.beautifulcreatures.ru/i/share.jpg" />
+<meta property="og:url" content="http://www.beautifulcreatures-movie.ru" />
+<meta property="og:image" content="http://www.beautifulcreatures-movie.ru/i/share.jpg" />
 <meta property="og:site_name" content="Прекрасные создания - официальный сайт фильма" />
 
 <meta name="viewport" content="width=990">
@@ -24,10 +24,10 @@
 
 <meta itemprop="name" content="Прекрасные создания - официальный сайт фильма">
 <meta itemprop="description" content="Прекрасные создания – мистическая драма, основанная на одноименном книжном бестселлере Ками Гарсиа и Маргарет Штоль">
-<meta itemprop="image" content="http://www.beautifulcreatures.ru/i/share.jpg">
+<meta itemprop="image" content="http://www.beautifulcreatures-movie.ru/i/share.jpg">
 
-<link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="css/main.css" />
+<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/init.js"></script>
 <script>
@@ -35,6 +35,9 @@ jQuery(function($) {
 $('.dim').fadeOut(500);
 });
 </script>
+
+
+
 
 <script type="text/javascript">
 $(function(){
@@ -62,49 +65,44 @@ $(function(){
 
 
 <style type="text/css">
-html {height: 100%;}
-body {overflow: auto; height: 100%; min-width: 950px; min-height: 600px; background-color: #000000; color: white;
-	/*background-image: url('i/testbg.jpg');
-	background-size: contain;
-	-webkit-background-size: contain;
-	-moz-background-size: contain;
-	-o-background-size: contain;
-	background-repeat: no-repeat;
-	-ms-behavior: url(backgroundsize.min.htc);*/
-}
-a:link, a:visited {color: red; font-size: 18px;}
-a:hover {color: blue;}
 
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, img, b, i, ol, ul, li, fieldset, form, input, dl, dt, dd {padding: 0; margin: 0; border: 0; font-weight: normal; vertical-align: baseline; word-wrap: break-word;}
+
+html {height: 100%;}
+body {overflow: auto; height: 100%; min-width: 950px; min-height: 600px; background-color: #000000; color: #ffffff; font-family: 'Playfair Display', 'Georgia', 'Times New Roman', serif;}
 
 .dim {position: absolute; width: 100%; height: 100%; overflow: hidden; background-color: #ffffff; z-index: 9999;}
 
+
 .page_wrap {position: relative; display: block; width: 960px; height: 1px; margin: 0 auto; zoom: 1; text-align: center;}
-.page_wrap {font-family: 'PT Serif', 'Georgia', 'Times New Roman', serif;}
+.page_wrap {}
 
 
 #main {min-width: 950px; max-width: 1700px; min-height: 100px; overflow: hidden; z-index: 1; margin: 0 auto; text-align: center;}
-.fullscreen {position: relative; top: 0; left: 0px; width: 96%;}
+.fullscreen {position: relative; top: 0; left: 0px; width: 100%;}
 
 .testoverlay {width: 100%; height: 100%; position: absolute; z-index: 2; top: 0; left: 0;}
 
 .testbg {display: block; width: 100%; height: auto;}
 
-.noselect {	-webkit-user-select: none;  /* Chrome all / Safari all */
-	-moz-user-select: none; -khtml-user-select: none;     /* Firefox all */
-	-ms-user-select: none;      /* IE 10+ */
-	-o-user-select: none;		/* Opera */
-	user-select: none;  		/* CSS3 */}
+.noselect {-webkit-user-select: none; -moz-user-select: none; -khtml-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none;}
 
 .testmenu {position: absolute; bottom: 90px; width: 100%; margin: 0 auto; height: 40px; background-color: pink; z-index: 3;}
 
-.testlogo {position: absolute; bottom: 150px; left: 50%; margin-left: -20%; width: 40%; height: 15%; background-color: gray; z-index: 2;}
+.testlogo {position: absolute; bottom: 130px; left: 50%; margin-left: -35%; width: 70%; height: 30%; border: 1px solid red; z-index: 2;
+	background-image: url('i/testlogo.png');
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-repeat: no-repeat;
+	-ms-behavior: url(backgroundsize.min.htc);
+}
 
 .testslogan {position: absolute; top: 10px; left: 50%; margin-left: -200px; width: 400px; height: 20px; background-color: gray; z-index: 2;}
-</style>
 
-
-<style type="text/css">
+/* W-I-P STYLES */
+a:link, a:visited {color: red; font-size: 18px;}
+a:hover {color: blue;}
 
   body {font-size:75%;}  /* Set the size of 1em to 10px in all browsers */
 
@@ -118,10 +116,13 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, img, b, i, ol,
 
 
 
+
+
+
 <div id="main" class="fullscreen">
 <div class="testslogan">slogan</div>
 <div class="testlogo">logo</div>
-<img src="i/testbg.jpg" class="testbg noselect">
+<img src="i/main_bg.jpg" class="testbg noselect">
 <!-- disable image dragging in safari (still need to find workaround for IE) --><div class="testoverlay noselect">&nbsp;</div>
 <div class="testmenu">
 	<div style="float: left; width: 5%; background-color: gray;">l</div>
@@ -137,11 +138,11 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, img, b, i, ol,
 
 <div class="page_wrap">
 <h1>Header</h1>
-<h3>Шрифт: PT Serif; можно юзать нормал, болд, и болд италик</h3>
+<h3>Шрифт: Playfair Display; можно юзать нормал, болд, и болд италик</h3>
 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
 <p><i><b>БОЛД италик</b></i></p>
 <p style="font-size: 20px;">Заголовок не-болдом</p>
-<p style="font-size: 20px; font-weight: bold;">Заголовок болдом</p>
+<p style="font-size: 20px; font-weight: bold; font-style: italic;">Заголовок болдом | Caption in bold - Q</p>
 <a href="page2.htm" class="fadeout">page2</a>
 </div>
 
