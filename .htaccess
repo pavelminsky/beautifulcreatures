@@ -1,1 +1,2 @@
 AddType text/x-component .htc
+ErrorDocument 404 /404.htm
