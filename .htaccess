@@ -1,2 +1,2 @@
 AddType text/x-component .htc
-ErrorDocument 404 /404.htm
+ErrorDocument 404 http://localhost:8888/beautifulcreatures/404/
