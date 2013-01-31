@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head><title>**ПРЕКРАСНО**</title>
+<head><title>Прекрасные создания — в кино с 14 февраля</title>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -89,7 +89,7 @@ background-size: cover;
 -ms-behavior: url(backgroundsize.min.htc);
 }
 
-.mainSlogan {position: absolute; top: 10px; left: 50%; margin-left: -25%; width: 50%; height: 60px; z-index: 3;
+.mainSlogan {position: absolute; top: 10px; left: 50%; margin-left: -20%; width: 40%; height: 50px; z-index: 3;
 background-image: url('i/slogan.png');
 background-repeat: no-repeat;
 background-size: contain;
@@ -120,12 +120,36 @@ a:hover {color: blue;}
 
 .testmenu {position: absolute; bottom: 80px; width: 100%; margin: 0 auto; overflow: hidden; height: 60px; z-index: 3; background: #000000 url('i/castBG.png') center top repeat-x;}
 
+.testCast {
+background-image: url('i/cast.png');
+background-repeat: no-repeat;
+background-position: center center;
+background-size: contain;
+-webkit-background-size: contain;
+-moz-background-size: contain;
+-o-background-size: contain;
+-ms-behavior: url(backgroundsize.min.htc);
+}
 
-
-.testroyal {position: relative; top: -80px; width: 83%; min-height: 320px; margin: 0 auto; z-index: 4; background: #000000 url('i/royalBG.png') center top repeat-x;}
+.testroyal {position: relative; top: -80px; width: 83%; max-width: 1200px; min-height: 320px; margin: 0 auto; z-index: 4; background: #000000 url('i/royalBG.png') center top repeat-x;}
 
 .testlocket {position: absolute; top: -63px; right: 8%; width: 50px; height: 170px; background-image: url('i/mainLocket.png'); z-index: 5;}
 
+
+.testDate {width: 70%; margin: 20px auto 0 auto; height: 50px; z-index: 3; text-align: center;
+background-image: url('i/date.png');
+background-repeat: no-repeat;
+background-position: center center;
+background-size: contain;
+-webkit-background-size: contain;
+-moz-background-size: contain;
+-o-background-size: contain;
+-ms-behavior: url(backgroundsize.min.htc);
+}
+
+.testAge {position: absolute; top: 30px; left: 30px; width: 70px; height: 70px; background-image: url('i/age.png'); z-index: 5;}
+
+.testCopy {margin-top: 90px; font-size: 120%; color: #657379; text-align: center;}
 
 </style>
 
@@ -142,7 +166,7 @@ a:hover {color: blue;}
 
 <div class="testmenu">
 	<div class="noSelect" style="float: left; width: 5%; height: 60px; background: url('i/castBGl.png') left top repeat-y;">&nbsp;</div>
-	<div class="noSelect" style="float: left; width: 90%; height: 60px; text-align: center; background: url('i/cast.png') center center no-repeat;">&nbsp;</div>
+	<div class="testCast noSelect" style="display: inline-block; width: 60%; margin: 0 auto; height: 60px; text-align: center;">&nbsp;</div>
 	<div class="noSelect" style="float: right; width: 5%; height: 60px; background: url('i/castBGr.png') right top repeat-y;">&nbsp;</div>
 </div>
 
@@ -151,7 +175,10 @@ a:hover {color: blue;}
 
 <div class="testroyal">
 	<div class="testlocket noSelect">&nbsp;</div>
-	<div style="width: 70%; margin: 0 auto; padding: 20px;">
+	<div style="width: 70%; margin: 0 auto; padding: 20px; text-aling: center;">
+		<div class="testDate noSelect">&nbsp;</div>
+		<div class="testAge">&nbsp;</div>
+		<div class="testCopy">&copy; 2013 &laquo;Вест Видео&raquo;</div>
 		<!--h1>Header</h1>
 		<h3>Шрифт: Playfair Display; можно юзать нормал, болд, и болд италик</h3>
 		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
