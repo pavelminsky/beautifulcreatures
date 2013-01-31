@@ -68,39 +68,37 @@ $(function(){
 
 
 html {height: 100%;}
-body {overflow: auto; height: 100%; min-width: 950px; min-height: 600px; background-color: #000000; color: #ffffff; font-family: 'Playfair Display', 'Georgia', 'Times New Roman', serif;}
+body {overflow: auto; height: 100%; min-width: 950px; min-height: 600px; background-color: #383b3d; color: #ffffff; font-family: 'Playfair Display', 'Georgia', 'Times New Roman', serif;}
 
 .dim {position: absolute; width: 100%; height: 100%; overflow: hidden; background-color: #ffffff; z-index: 9999;}
+.noSelect {-webkit-user-select: none; -moz-user-select: none; -khtml-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none;}
 
 
-.page_wrap {position: relative; display: block; width: 960px; height: 1px; margin: 0 auto; zoom: 1; text-align: center;}
-.page_wrap {}
+.main {position: relative; top: 0; left: 0; width: 100%; min-width: 950px; max-width: 1700px; min-height: 100px; overflow: hidden; z-index: 1; margin: 0 auto; text-align: center;}
+
+.mainBG {display: block; width: 100%; height: auto;}
+.mainOverlay {position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 2;}
 
 
-#main {min-width: 950px; max-width: 1700px; min-height: 100px; overflow: hidden; z-index: 1; margin: 0 auto; text-align: center;}
-.fullscreen {position: relative; top: 0; left: 0px; width: 100%;}
-
-.testoverlay {width: 100%; height: 100%; position: absolute; z-index: 2; top: 0; left: 0;}
-
-.testbg {display: block; width: 100%; height: auto;}
-
-.noselect {-webkit-user-select: none; -moz-user-select: none; -khtml-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none;}
-
-.testmenu {position: absolute; bottom: 90px; width: 100%; margin: 0 auto; height: 40px; background-color: pink; z-index: 3;}
-
-.testlogo {position: absolute; bottom: 130px; left: 50%; margin-left: -35%; width: 70%; height: 30%; border: 1px solid red; z-index: 2;
-	background-image: url('i/testlogo.png');
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-repeat: no-repeat;
-	-ms-behavior: url(backgroundsize.min.htc);
+.mainLogo {position: absolute; bottom: 130px; left: 50%; width: 70%; height: 30%; z-index: 2; margin-left: -35%;
+background-image: url('i/mainLogo.png');
+background-repeat: no-repeat;
+background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+-ms-behavior: url(backgroundsize.min.htc);
 }
 
-.testslogan {position: absolute; top: 10px; left: 50%; margin-left: -200px; width: 400px; height: 20px; background-color: gray; z-index: 2;}
+.testmenu {position: absolute; bottom: 100px; width: 100%; margin: 0 auto; height: 40px; background-color: pink; z-index: 3;}
+
+.testslogan {position: absolute; top: 10px; left: 50%; margin-left: -200px; width: 400px; height: 20px; background-color: gray; z-index: 3;}
+
 
 /* W-I-P STYLES */
+
+.page_wrap {position: relative; display: block; width: 960px; height: 1px; margin: 0 auto; zoom: 1; text-align: center;}
+
 a:link, a:visited {color: red; font-size: 18px;}
 a:hover {color: blue;}
 
@@ -117,18 +115,20 @@ a:hover {color: blue;}
 
 
 
+<div class="main">
 
-
-<div id="main" class="fullscreen">
 <div class="testslogan">slogan</div>
-<div class="testlogo">logo</div>
-<img src="i/main_bg.jpg" class="testbg noselect">
-<!-- disable image dragging in safari (still need to find workaround for IE) --><div class="testoverlay noselect">&nbsp;</div>
+
+	<div class="mainLogo">&nbsp;</div>
+	<img src="i/mainBG.jpg" class="mainBG noSelect">
+	<div class="mainOverlay noSelect">&nbsp;</div>
+
 <div class="testmenu">
 	<div style="float: left; width: 5%; background-color: gray;">l</div>
 	<div style="float: left; width: 90%; background-color: gray;"><a href="#">1 2 3 4 5</a> 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 <a href="#">74 75 76 77</a> 78 79 80 81 82 83</div>
 	<div style="float: right; width: 5%; background-color: gray;">r</div>
 </div>
+
 </div>
 
 
