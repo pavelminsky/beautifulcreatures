@@ -331,10 +331,8 @@ so you can upgrade to newer versions easier. You can remove all these styles by 
 .vjs-default-skin .vjs-big-play-button {
   display: block; /* Start hidden */ z-index: 2;
   position: absolute; top: 50%; left: 50%; width: 8.0em; height: 8.0em; margin: -42px 0 0 -42px; text-align: center; vertical-align: center; cursor: pointer !important;
-  border: 0.2em solid #fff; opacity: 0.95;
-  
-
-  background: #c12300;
+  border: 0.2em solid #ffab00; opacity: 0.95;
+  background: #19426e;
 
   /* CSS Shadows */
   -webkit-box-shadow: 4px 4px 8px #000; -moz-box-shadow: 4px 4px 8px #000; box-shadow: 4px 4px 8px #000;
