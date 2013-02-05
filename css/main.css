@@ -33,7 +33,9 @@ body {overflow: auto; height: 100%; min-width: 950px; min-height: 600px; backgro
 
 
 
-.mainMenu {position: absolute; bottom: 80px; width: 100%; margin: 0 auto; overflow: hidden; height: 40px; z-index: 3; background: #000000 url('../images/menuBG.png') left top repeat-x;}
+.indexMenu {position: absolute; bottom: 80px; z-index: 3; width: 100%; margin: 0 auto; overflow: hidden;}
+
+.mainMenu {height: 40px; background: #000000 url('../images/menuBG.png') left top repeat-x;}
 
 .menuFadeOut_l {float: left; width: 5%; height: 40px; background: url('../images/fadeOut_l.png') left top repeat-y;}
 .menuFadeOut_r {float: right; width: 5%; height: 40px; background: url('../images/fadeOut_r.png') right top repeat-y;}
@@ -97,7 +99,7 @@ a:hover {color: blue;}
 
 .testroyal {position: relative; top: -80px; width: 83%; max-width: 1200px; min-height: 320px; margin: 0 auto; z-index: 4; background: #000000 url('../images/royalBG.png') center top repeat-x;}
 
-.testlocket {position: absolute; top: -43px; right: 8%; width: 50px; height: 170px; background-image: url('../images/mainLocket.png'); z-index: 5;}
+.testlocket {position: absolute; top: -43px; right: 4%; width: 50px; height: 170px; background-image: url('../images/mainLocket.png'); z-index: 5;}
 
 
 .testDate {width: 70%; margin: 20px auto 0 auto; height: 50px; z-index: 3; text-align: center;
