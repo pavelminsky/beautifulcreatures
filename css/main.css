@@ -96,10 +96,10 @@ a:hover {color: #ffdd98;}
 .royalFadeOut_r {float: right; width: 5%; min-height: 320px; background: url('../images/fadeOut_r.png') right top repeat-y;}
 
 .mainContent {float: left; width: 86%; margin: 40px auto 20px auto; text-align: center;}
-.mainContent_lc {float: left; width: 50%; overflow: hidden; margin: 0 auto; text-align: left;}
-.mainContent_rc {float: left; width: 50%; overflow: hidden; margin: 0 auto; text-align: center;}
-.mainContent_rc .date {width: 80%;}
-.mainContent_rc .age {padding-top: 30px;}
+.mainContent_rc {float: left; width: 50%; overflow: hidden; margin: 0 auto; text-align: left;}
+.mainContent_lc {float: left; width: 50%; overflow: hidden; margin: 0 auto; text-align: center;}
+.mainContent_lc .date {width: 80%;}
+.mainContent_lc .age {padding-top: 30px;}
 
 
 
