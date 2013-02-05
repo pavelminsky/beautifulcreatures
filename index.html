@@ -78,110 +78,87 @@ $(function(){
 </div>
 
 
-
-
-
-<div class="testroyal clearfix">
-	<div class="testlocket noSelect">&nbsp;</div>
-	<div class="noSelect" style="float: left; width: 5%; min-height: 320px; background: url('images/fadeOut_l.png') left top repeat-y;">&nbsp;</div>
-	<div style="display: inline-block; width: 66%; margin: 0 auto; padding: 20px; text-aling: center;">
-		<div class="testDate noSelect">&nbsp;</div>
-		<div class="testAge">&nbsp;</div>
-
-		<div id="trailer1" style="padding: 30px 0 10px 0; margin: 0 auto; width:550px;height:228px;display:block;">
-		<video id="video1" class="video-js vjs-default-skin" controls preload="auto" width="550" height="228" poster="video/beautifulcreatures_russian_550.jpg" data-setup="{}"><source src="http://www.beautifulcreaturesmovie.ru/video/beautifulcreatures_russian_550.mp4" type='video/mp4'></video>
-		</div>
-
-
-
-<div class="testBlock clearfix">
-
-
 <style type="text/css">
-.newshd {
-    position:relative;
-    display:block;
-    height: 104px;
-    width: 250px;
-    background: #ccc;
-}
-    
 
+.mainContent_lc ul li {padding-bottom: 25px;}
 
+.mainContent_lc .newsdate {font-size: 100%; color: #e0f5ff; text-shadow: 0px -1px 2px #0d293a;}
 
-.newsbox {
-    width:250px;
-    border:1px solid #ccc;
-    border-top:none;
-    background-color:#FFf;
-    padding:0;
-    margin:0;
-    display:none;
-    color: #000;
-}
+.mainContent_lc .newshd {position: relative; display: inline-block; cursor: pointer; margin-bottom: 5px; font-size: 160%; font-style: italic; color: #abd0e5; border-bottom: 1px dotted #abd0e5; text-shadow: 0px -2px 2px #000000;}
+.mainContent_lc .newshd:hover {color: #d5edfb; border-bottom: 1px dotted #c2e1f3;}
 
+.mainContent_lc .newsbox {display: none; font-size: 120%; text-shadow: 0px -1px 2px #0d293a;}
+
+.mainContent_lc .newsbox p {padding: 5px 10px 5px 0px;}
+.mainContent_lc .newsbox p:first-child::first-letter {font-style: bold; font-size: 140%;}
 
 
 </style>
 
 
+<div class="mainRoyal clearfix">
 
+	<div class="mainLocket noSelect">&nbsp;</div>
+	<div class="royalFadeOut_l noSelect">&nbsp;</div>
 
-        <a class="newshd">Box 1 - Click to expand content</a>
-        <div class="newsbox">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <div class="rerasdas">dasdklsa jdsalkdj aksldjalsk djalsk djalskdj laksdj laksjdaslk djaslkd jaslk dasdljadaldjs adl</div>
-        </div>
-
-        <a class="newshd">Box 2 - Click to expand content</a>
-        <div class="newsbox">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-        </div>
-
-
-        <a class="newshd">Box 3 - Click to expand content</a>
-        <div class="newsbox">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-        </div>
-
-
-
-
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-		<div class="testNews">
-			<h1>Москву посетили &laquo;Прекрасные создания&raquo;</h1>
-			<p>Исполнители ролей в фильме «Прекрасные создания» — Олден Эренрайк и Эмми Россам — заглянули на несколько дней в заснеженную Москву в рамках промо-тура фильма.</p>
-			<p>18 января прошёл закрытый пресс-показ, на котором аккредитованные на интервью журналисты смогли посмотреть фильм первыми. А 19 января в гостинице «Метрополь», где остановились артисты, прошел фото-колл и пресс-джанкет, на котором актёры ответили на вопросы журналистов.</p>
-			<p>Все остались довольны визитом: журналисты знакомством с молодыми незаурядными талантами (Эмми — прекрасная певица, работавшая на одной сцене с Хворостовским, а Олден — образованный актёр, восхищающийся Станиславским), а актёры визитом в «зимнюю сказку».</p>
-			<p>Олден и Эмми подписали для «Веста» промо-открытки, постеры кинофильма, а также книги «Прекрасные создания», которые мы с удовольствием предоставим для розыгрышей некоторым СМИ, а также кинотеатрам.</p>
-			<p style="font-style: italic;">Фото: Вера Фетищева. Открыть галерею:</p>
-			<p>
-			<a id="media_2" href="media/news_1_01.jpg" class="gallery_common" data-fancybox-group="gallery1"><img src="media/news_1_01m.jpg" alt="" style="display: block !important;"></a>
-			</p>
+	<div class="mainContent">
+		<div class="mainContent_lc">
+			<!-- Include news -->
+			<ul>
+				<li>
+					<div class="newsdate">4 февраля</div>
+					<h2 class="newshd">Москву посетили &laquo;Прекрасные создания&raquo;</h2>
+					<div class="newsbox">
+					<p>Исполнители ролей в фильме «Прекрасные создания» — Олден Эренрайк и Эмми Россам — заглянули на несколько дней в заснеженную Москву в рамках промо-тура фильма.</p>
+					<p>18 января прошёл закрытый пресс-показ, на котором аккредитованные на интервью журналисты смогли посмотреть фильм первыми. А 19 января в гостинице «Метрополь», где остановились артисты, прошел фото-колл и пресс-джанкет, на котором актёры ответили на вопросы журналистов.</p>
+					<p>Все остались довольны визитом: журналисты знакомством с молодыми незаурядными талантами (Эмми — прекрасная певица, работавшая на одной сцене с Хворостовским, а Олден — образованный актёр, восхищающийся Станиславским), а актёры визитом в «зимнюю сказку».</p>
+					<p>Олден и Эмми подписали для «Веста» промо-открытки, постеры кинофильма, а также книги «Прекрасные создания», которые мы с удовольствием предоставим для розыгрышей некоторым СМИ, а также кинотеатрам.</p>
+					<p style="font-style: italic;">Фото: Вера Фетищева. Открыть галерею:</p>
+					<p><a id="media_2" href="media/news_1_01.jpg" class="gallery_common" data-fancybox-group="gallery1"><img src="media/news_1_01m.jpg" alt="" style="width: 100%; display: block !important;"></a></p>
+					</div>
+				</li>
+				<li>
+					<div class="newsdate">3 февраля</div>
+					<h2 class="newshd">Прекрасный русский трейлер</h2>
+					<div class="newsbox">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+					<div id="trailer1" style="padding: 30px 0 10px 0; margin: 0 auto; width:550px;height:228px;display:block;"><video id="video1" class="video-js vjs-default-skin" controls preload="auto" width="550" height="228" poster="video/beautifulcreatures_russian_550.jpg" data-setup="{}"><source src="http://www.beautifulcreaturesmovie.ru/video/beautifulcreatures_russian_550.mp4" type='video/mp4'></video></div>
+					</div>
+				</li>
+				<li>
+					<div class="newsdate">1 февраля</div>
+					<h2 class="newshd">Прекрасный русский сайт</h2>
+					<div class="newsbox">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+					</div>
+				</li>
+			</ul>
+			<!-- //Include news -->
+			<p style="padding-top: 20px; font-size: 120%;"><a href="news.html">Все новости</a> &rarr;</p>
 		</div>
-
-
-		<div class="testCopy">&copy; 2013 &laquo;Вест Видео&raquo;</div>
+		<div class="mainContent_rc">
+			<img class="date noSelect" src="images/mainDate.png"><br>
+			<img class="age noSelect" src="images/age.png">
+		</div>
 	</div>
-	<div class="noSelect" style="float: right; width: 5%; min-height: 320px; background: url('images/fadeOut_r.png') right top repeat-y;">&nbsp;</div>
+
+	<div class="royalFadeOut_r noSelect">&nbsp;</div>
+
 </div>
 
 
 
-<!-- media -->
+
+
+
+<style type="text/css">
+.testCopy {margin-top: 40px; font-size: 120%; color: #657379; text-align: center;}
+</style>
+
+<div class="testCopy">&copy; 2013 &laquo;Вест Видео&raquo;</div>
+
+
+<!-- Media -->
 <style type="text/css">
 .gallery_common img {display: none;}
 </style>
@@ -191,7 +168,6 @@ $(function(){
 <a class="gallery_common" data-fancybox-group="gallery1" href="media/news_1_05.jpg"><img src="media/news_1_05s.jpg" alt=""></a>
 <a class="gallery_common" data-fancybox-group="gallery1" href="media/news_1_06.jpg"><img src="media/news_1_06s.jpg" alt=""></a>
 <a class="gallery_common" data-fancybox-group="gallery1" href="media/news_1_07.jpg"><img src="media/news_1_07s.jpg" alt=""></a>
-
 
 
 
@@ -264,10 +240,6 @@ style="border:0;" height="31" width="88" alt="Рейтинг@Mail.ru" /></a></p>
 	</p>
 	</div>
 </div>
-
-
-
-
 
 
 
