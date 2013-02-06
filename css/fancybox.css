@@ -4,7 +4,7 @@
 
 .fancybox-wrap {position: absolute; top: 0; left: 0; z-index: 8020;}
 
-.fancybox-skin {position: relative; background: #a01e00; color: #444; text-shadow: none;}
+.fancybox-skin {position: relative; background: #4397b2; color: #444; text-shadow: none;}
 .fancybox-opened {z-index: 8030;}
 .fancybox-opened .fancybox-skin {-webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);}
 .fancybox-outer, .fancybox-inner {position: relative;}
@@ -21,11 +21,11 @@
 
 .fancybox-close {position: absolute; top: 0px; right: -42px; width: 36px; height: 36px; cursor: pointer; z-index: 8040;}
 .fancybox-nav {position: absolute; top: 0; width: 40%; height: 100%; cursor: pointer; text-decoration: none; background: transparent url('../images/blank.gif'); /* helps IE */ -webkit-tap-highlight-color: rgba(0,0,0,0); z-index: 8040;}
-.fancybox-prev {left: -10px;}
-.fancybox-next {right: -10px;}
+.fancybox-prev {left: 0px;}
+.fancybox-next {right: 0px;}
 .fancybox-nav span {position: absolute; top: 50%; width: 36px; height: 34px; margin-top: -18px; cursor: pointer; z-index: 8040; visibility: hidden;}
-.fancybox-prev span {left: -40px; background-position: 0 -36px;}
-.fancybox-next span {right: -40px; background-position: 0 -72px;}
+.fancybox-prev span {left: 20px; background-position: 0 -36px;}
+.fancybox-next span {right: 20px; background-position: 0 -72px;}
 .fancybox-nav:hover span {visibility: visible;}
 .fancybox-tmp {position: absolute;top: -9999px; left: -9999px; visibility: hidden;}
 
@@ -50,7 +50,7 @@
 #fancybox-thumbs.top {top: 2px;}
 #fancybox-thumbs ul {position: relative; list-style: none; margin: 0; padding: 0;}
 #fancybox-thumbs ul li {float: left; padding: 2px; opacity: 0.7;}
-#fancybox-thumbs ul li.active {opacity: 1; padding: 0; border: 2px solid #a01e00;}
+#fancybox-thumbs ul li.active {opacity: 1; padding: 0; border: 2px solid #4397b2;}
 #fancybox-thumbs ul li:hover {opacity: 1;}
-#fancybox-thumbs ul li a {display: block; position: relative; overflow: hidden; border: 2px solid #000000; background: #a01e00; outline: none;}
+#fancybox-thumbs ul li a {display: block; position: relative; overflow: hidden; border: 2px solid #395c7e; background: #203951; outline: none;}
 #fancybox-thumbs ul li img {display: block; position: relative; border: 0; padding: 0;}

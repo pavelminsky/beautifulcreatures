@@ -1,2 +1,4 @@
-AddType text/x-component .htc
-ErrorDocument 404 http://localhost:8888/beautifulcreatures/404/
+RewriteEngine on
+
+DirectoryIndex index.php
+ErrorDocument 404 http://www.beautifulcreaturesmovie.ru/404/

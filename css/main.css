@@ -27,14 +27,21 @@ body.extraNarrow {font-size: 60%;}
 
 a:link {color: #eec167;}
 a:visited {color: #bea675;}
-a:hover {color: #ffdd98;}
+a:hover {color: #ffdd98; text-shadow: 0px -4px 8px #a98e57;}
 
+.wrap404 {width: 800px; margin: 0 auto; text-align: center;}
+.wrap404 h2 {padding: 40px 0 30px 0; font-size: 240%;}
+.wrap404 p {font-size: 130%; line-height: 140%;}
 
+.copy {padding: 0 10px 20px 10px; font-size: 100%; color: #657379; text-align: center; opacity: 0.50; -moz-opacity: 0.850; -khtml-opacity: 0.50; filter: alpha(opacity=50);}
 
 #counters {position: fixed; bottom: -160px; right: 40px; z-index: 1005; width: 140px; height: 180px; text-align: right; background-image:url('../images/counters.png'); background-position: right top; background-repeat: no-repeat;}
 .counters_list {padding-top: 30px; opacity: 0.40; -moz-opacity: 0.40; -khtml-opacity: 0.40; filter: alpha(opacity=40);}
 .counters_list p {padding: 0; margin: 0; padding-bottom: 6px; font-size: 11px; color: #6b767b;}
 #counters:hover {bottom: 0;}
+
+.fancybox_img img {display: none !important;}
+
 
 
 
@@ -104,12 +111,21 @@ a:hover {color: #ffdd98;}
 
 
 
+.newsList ul li {padding-bottom: 25px;}
 
+.newsList .newsdate {font-size: 100%; color: #e0f5ff; text-shadow: 0px -2px 2px #061d2b;}
 
+.newsList .newshd {position: relative; display: inline-block; cursor: pointer; margin-bottom: 5px; font-size: 160%; font-style: italic; color: #abd0e5; border-bottom: 1px dotted #abd0e5; text-shadow: 0px -2px 2px #000000;}
+.newsList .newshd:hover {color: #d5edfb; border-bottom: 1px dotted #c2e1f3; text-shadow: 0px -4px 8px #407ba4;}
 
+.newsList .newsbox {display: none; font-size: 120%; text-shadow: 0px -1px 2px #0d293a;}
+.newsList .newsbox p {padding: 5px 10px 5px 0px;}
+.newsList .newsbox p:first-child::first-letter {font-style: bold; font-size: 140%;}
 
+.newsList .newsbox div.newsnote {padding: 10px 10px 10px 0; font-style: italic; font-size: 90%; color: #9eb4bc;}
 
-
+.newsList a.gallery_news, .newsList a.videos_news {display: inline-block; overflow: hidden; text-align: center; vertical-align: top; margin: 5px 5px 5px 0; border: 2px solid #337294;}
+.newsList a.gallery_news:hover, .newsList a.videos_news:hover {border: 2px solid #5db3e1;}
 
 
 
