@@ -8,7 +8,7 @@
 <div class="pagesAge noSelect">&nbsp;</div>
 
 <div class="mainWrap">
-	<a class="pagesLogoLink noSelect" href="/"><img class="pagesLogo noSelect" src="images/pagesLogo.png"><img class="pagesLogoHover noSelect" src="images/pagesLogoHover.png"></a>
+	<a class="pagesLogoLink noSelect fadeout" href="/"><img class="pagesLogo noSelect" src="images/pagesLogo.png"><img class="pagesLogoHover noSelect" src="images/pagesLogoHover.png"></a>
 	<img class="mainBG noSelect" src="images/ridleyBG.jpg">
 	<div class="mainOverlay noSelect">&nbsp;</div>
 	<div class="pagesMenu mainMenu">
@@ -20,18 +20,18 @@
 </div>
 
 
-<div class="pagesContentWrap clearfix">
+<div class="aboutContentWrap clearfix">
 	<div class="aboutLocket noSelect">&nbsp;</div>
-	<div class="pagesContent">
-		<div class="pagesContent_lc" style="text-align: right;">&nbsp;</div>
-		<div class="pagesContent_rc">
+	<div class="aboutContent">
+		<div class="aboutContent_lc">&nbsp;</div>
+		<div class="aboutContent_rc">
 			<h3>Раскроются тёмные тайны</h3>
 			<p>Итана Уэйта, считающего дни до своего бегства из Гатлина, преследуют сны о прекрасной девушке, которую он никогда не встречал. Когда красавица Лена приезжает жить в дом на самой старой и самой жуткой из всех плантаций города, Итан безоговорочно влюбляется в нее и целенаправленно старается раскрыть секрет их удивительной связи.</p>
 			<p>Лена Дюкейн отличается от всех, кого когда-либо видел маленький южный город Гатлин, она борется с собой, пытаясь усмирить свою силу и проклятие, веками преследовавшее ее семью. Но даже в разросшихся садах, в мрачных болотах и на разрушенных могильниках позабытого Юга секрет не будет жить вечно.</p>
 		</div>
 	</div>
-	<div class="pagesContent">
-		<div class="pagesContent_lc">
+	<div class="aboutContent">
+		<div class="aboutContent_lc">
 			<p><i>Фильм основан на бестселлере Ками Гарсия и Маргарет Штоль «Прекрасные создания». Это экранизация первой книги из серии.</i></p>
 			<dl>
 			<dt>Beautiful Creatures; США, 2013</dt>
@@ -46,7 +46,7 @@
 			<dd>Олден Эренрайк, Элис Энглерт, Джереми Айронс, Виола Дэвис, Эмми Россам, Томас Манн, Эмма Томпсон, Зоя Дойч</dd>
 			</dl>
 		</div>
-		<div class="pagesContent_rc">
+		<div class="aboutContent_rc">
 			<a class="gallery_news" data-fancybox-group="about_poster" href="media/about_poster.jpg"><img src="media/about_poster_s.jpg" alt=""></a>
 		</div>
 	</div>
