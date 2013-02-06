@@ -5,32 +5,6 @@
 
 
 
-<style type="text/css">
-
-
-
-.aboutLocket {position: absolute; top: -43px; left: 43.5%; width: 50px; height: 170px; background-image: url('images/mainLocket.png'); z-index: 5;}
-
-
-
-.pagesLogo {position: absolute; bottom: 284px; left: 60%; width: 30%; z-index: 5; margin-left: -15%;}
-.pagesLogoHover {visibility: hidden; position: absolute; bottom: 288px; left: 60%; width: 30%; z-index: 3; margin-left: -15%;}
-.pagesLogoLink:hover .pagesLogoHover {visibility: visible;}
-
-.pagesMenu {position: absolute; bottom: 220px; z-index: 3; width: 100%; margin: 0 auto; overflow: hidden;}
-.pagesMenuShadow {position: absolute; bottom: 200px; z-index: 3; width: 100%; height: 20px; margin: 0 auto; background: url('images/pagesMenuShadow.png') left top repeat-x;}
-
-.pagesContentWrap {position: relative; top: -220px; width: 96%; max-width: 1200px; min-height: 320px; margin: 0 auto; z-index: 4;}
-
-.pagesContent {float: right; width: 98%; margin: 40px auto 20px auto; text-align: center; background-color: blue;}
-.pagesContent_lc {float: left; width: 40%; overflow: hidden; margin: 0 auto; text-align: left; background-color: pink;}
-.pagesContent_rc {float: right; width: 50%; overflow: hidden; margin: 0 auto; text-align: left; background-color: green;}
-
-
-
-</style>
-
-
 <div class="pagesAge noSelect">&nbsp;</div>
 
 <div class="mainWrap">
@@ -49,8 +23,32 @@
 <div class="pagesContentWrap clearfix">
 	<div class="aboutLocket noSelect">&nbsp;</div>
 	<div class="pagesContent">
-		<div class="pagesContent_lc">lc</div>
-		<div class="pagesContent_rc">rc</div>
+		<div class="pagesContent_lc" style="text-align: right;">&nbsp;</div>
+		<div class="pagesContent_rc">
+			<h3>Раскроются тёмные тайны</h3>
+			<p>Итана Уэйта, считающего дни до своего бегства из Гатлина, преследуют сны о прекрасной девушке, которую он никогда не встречал. Когда красавица Лена приезжает жить в дом на самой старой и самой жуткой из всех плантаций города, Итан безоговорочно влюбляется в нее и целенаправленно старается раскрыть секрет их удивительной связи.</p>
+			<p>Лена Дюкейн отличается от всех, кого когда-либо видел маленький южный город Гатлин, она борется с собой, пытаясь усмирить свою силу и проклятие, веками преследовавшее ее семью. Но даже в разросшихся садах, в мрачных болотах и на разрушенных могильниках позабытого Юга секрет не будет жить вечно.</p>
+		</div>
+	</div>
+	<div class="pagesContent">
+		<div class="pagesContent_lc">
+			<p><i>Фильм основан на бестселлере Ками Гарсия и Маргарет Штоль «Прекрасные создания». Это экранизация первой книги из серии.</i></p>
+			<dl>
+			<dt>Beautiful Creatures; США, 2013</dt>
+			<dd>Романтический триллер<br>мистика, мелодрама<br>122 мин.</dd>
+			<dt>Режиссер</dt>
+			<dd>Ричард ЛаГравенезе</dd>
+			<dt>Сценаристы</dt>
+			<dd>Ричард ЛаГравенезе, Ками Гарсиа, Маргарет Штоль</dd>
+			<dt>Оператор</dt>
+			<dd>Филипп Русло</dd>
+			<dt>В ролях</dt>
+			<dd>Олден Эренрайк, Элис Энглерт, Джереми Айронс, Виола Дэвис, Эмми Россам, Томас Манн, Эмма Томпсон, Зоя Дойч</dd>
+			</dl>
+		</div>
+		<div class="pagesContent_rc">
+			<a class="gallery_news" data-fancybox-group="about_poster" href="media/about_poster.jpg"><img src="media/about_poster_s.jpg" alt=""></a>
+		</div>
 	</div>
 </div>
 
@@ -66,7 +64,7 @@
 	<div class="counters_list">
 	<p>А это наши прекрасные счетчики:</p>
 	<p>
-	<?php //include ("counters_include.php"); ?>	
+	<?php include ("counters_include.php"); ?>	
 	</p>
 	</div>
 </div>

@@ -50,7 +50,7 @@
 	<div class="counters_list">
 	<p>А это наши прекрасные счетчики:</p>
 	<p>
-	<?php //include ("counters_include.php"); ?>	
+	<?php include ("counters_include.php"); ?>	
 	</p>
 	</div>
 </div>
