@@ -140,6 +140,40 @@ a.gallery_news:hover, a.videos_news:hover {border: 2px solid #5db3e1;}
 
 
 
+/* Gallery */
+.gallerySlogan {position: absolute; top: 60px; left: 7%; z-index: 6; width: 180px; text-align: right; font-size: 130%; font-style: italic; color: #d39a5c; text-shadow: 0px -2px 2px #000000;}
+.galleryLocket {position: absolute; top: -73px; right: 14.7%; width: 50px; height: 170px; background-image: url('../images/mainLocket.png'); z-index: 5;}
+
+a.gallery_pics, .gallery_pics_notfancy {display: inline-block; overflow: hidden; text-align: center; vertical-align: top; margin: 5px; border: 1px solid #337294;}
+a.gallery_pics:hover, .gallery_pics_notfancy:hover {border: 1px solid #5db3e1; box-shadow: 0px 0px 8px rgba(149,207,236,1); -moz-box-shadow: 0px 0px 8px rgba(149,207,236,1); -webkit-box-shadow: 0px 0px 8px rgba(149,207,236,1);}
+
+.galleryContentWrap {position: relative; top: -100px; width: 96%; max-width: 1200px; margin: -90px auto 20px auto; z-index: 4;}
+.galleryContent {float: right; width: 98%; margin: 5px auto 15px auto; text-align: center; font-size: 120%; text-shadow: 0px -1px 2px #0d293a;}
+
+.galleryContent_frr {float: right; width: 22%; overflow: hidden; margin: 0 auto;}
+.galleryContent_frl {float: right; width: 56%; overflow: hidden; margin: 0 auto; text-align: right;}
+.galleryContent_srr {float: right; width: 48%; overflow: hidden; margin: 0 auto; text-align: left;}
+.galleryContent_srl {float: left; width: 48%; overflow: hidden; margin: 0 auto; text-align: right;}
+
+.galleryContent h3 {margin-top: 5px; margin-bottom: 20px; font-size: 180%; font-style: italic; color: #dcedf7; text-shadow: 0px -2px 2px #000000;}
+.galleryContent h4 {padding-top: 15px; padding-right: 5px; padding-left: 5px; margin-bottom: 2px; font-size: 150%; font-style: italic; color: #dcedf7; text-shadow: 0px -2px 2px #000000;}
+.galleryHDsub {font-size: 85%; color: #9eb3bf; padding-right: 5px; padding-left: 5px;}
+.galleryContent p {padding: 5px 0 8px 0;}
+.galleryContent .galleryContent_rc p::first-letter {font-style: bold; font-size: 140%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

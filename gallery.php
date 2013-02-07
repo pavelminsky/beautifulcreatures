@@ -6,6 +6,7 @@
 
 
 <div class="pagesAge noSelect">&nbsp;</div>
+<div class="gallerySlogan">Зависть — грех</div>
 
 <div class="mainWrap">
 	<a class="pagesLogoLink noSelect fadeout" href="/"><img class="pagesLogo noSelect" src="images/pagesLogo.png"><img class="pagesLogoHover noSelect" src="images/pagesLogoHover.png"></a>
@@ -13,48 +14,42 @@
 	<div class="mainOverlay noSelect">&nbsp;</div>
 	<div class="pagesMenu mainMenu">
 		<div class="menuFadeOut_l noSelect">&nbsp;</div>
-		<div class="menuButtons"><a href="/" class="index fadeout">Главная</a><a href="javascript:void(0)" class="news disabled fadeout">Новости</a><a href="javascript:void(0)" class="books disabled fadeout">Книги</a><a href="about.php" class="about fadeout">Фильм</a><a href="javascript:void(0)" class="team disabled fadeout">Команда</a><a href="javascript:void(0)" class="video disabled fadeout">Видео</a><a href="javascript:void(0)" class="gallery active">Кадры</a></div>
+		<div class="menuButtons"><a href="/" class="index fadeout">Главная</a><a href="javascript:void(0)" class="news disabled fadeout">Новости</a><a href="javascript:void(0)" class="books disabled fadeout">Книги</a><a href="about.php" class="about fadeout">Фильм</a><a href="javascript:void(0)" class="team disabled fadeout">Команда</a><a href="video.php" class="video fadeout">Видео</a><a href="javascript:void(0)" class="gallery active fadeout">Кадры</a></div>
 		<div class="menuFadeOut_r noSelect">&nbsp;</div>
 	</div>
 	<div class="pagesMenuShadow noSelect">&nbsp;</div>
 </div>
 
 
-<div class="aboutContentWrap clearfix">
-	<div class="aboutLocket noSelect">&nbsp;</div>
-	<div class="aboutContent">
-		<div class="aboutContent_lc">
-			<p>Кадры</p>
-			<p>Фотографии</p>
-			<p>Обои 1920&times;1080, откроются в новом окне</p>
-			<p>Постеры</p>
-		</div>
-		<div class="aboutContent_rc">
-			<h3>Зависть — грех</h3>
-			<p>Итана Уэйта, считающего дни до своего бегства из Гатлина, преследуют сны о прекрасной девушке, которую он никогда не встречал. Когда красавица Лена приезжает жить в дом на самой старой и самой жуткой из всех плантаций города, Итан безоговорочно влюбляется в нее и целенаправленно старается раскрыть секрет их удивительной связи.</p>
-			<p>Лена Дюкейн отличается от всех, кого когда-либо видел маленький южный город Гатлин, она борется с собой, пытаясь усмирить свою силу и проклятие, веками преследовавшее ее семью. Но даже в разросшихся садах, в мрачных болотах и на разрушенных могильниках позабытого Юга секрет не будет жить вечно.</p>
+
+<div class="galleryContentWrap clearfix">
+	<div class="galleryLocket noSelect">&nbsp;</div>
+
+	<div class="galleryContent">
+		<div class="galleryContent_frr">&nbsp;</div>
+		<div class="galleryContent_frl">
+			<h4>Кадры</h4>
+			<p><a class="gallery_pics" data-fancybox-group="gallery_stills" href="gallery/stills/01.jpg"><img src="gallery/stills/01s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_stills" href="gallery/stills/02.jpg"><img src="gallery/stills/02s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_stills" href="gallery/stills/03.jpg"><img src="gallery/stills/03s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_stills" href="gallery/stills/04.jpg"><img src="gallery/stills/04s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_stills" href="gallery/stills/05.jpg"><img src="gallery/stills/05s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_stills" href="gallery/stills/06.jpg"><img src="gallery/stills/06s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_stills" href="gallery/stills/07.jpg"><img src="gallery/stills/07s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_stills" href="gallery/stills/08.jpg"><img src="gallery/stills/08s.jpg" alt=""></a></p>
 		</div>
 	</div>
-	<div class="aboutContent">
-		<div class="aboutContent_lc">
-			<p><i>Фильм основан на бестселлере Ками Гарсия и Маргарет Штоль «Прекрасные создания». Это экранизация первой книги из серии.</i></p>
-			<dl>
-			<dt>Beautiful Creatures; США, 2013</dt>
-			<dd>Романтический триллер<br>мистика, мелодрама<br>122 мин.</dd>
-			<dt>Режиссер</dt>
-			<dd>Ричард ЛаГравенезе</dd>
-			<dt>Сценаристы</dt>
-			<dd>Ричард ЛаГравенезе, Ками Гарсиа, Маргарет Штоль</dd>
-			<dt>Оператор</dt>
-			<dd>Филипп Русло</dd>
-			<dt>В ролях</dt>
-			<dd>Олден Эренрайк, Элис Энглерт, Джереми Айронс, Виола Дэвис, Эмми Россам, Томас Манн, Эмма Томпсон, Зоя Дойч</dd>
-			</dl>
+
+	<div class="galleryContent">
+		<div class="galleryContent_srr">
+			<h4>Обои</h4>
+			<p><a class="gallery_pics_notfancy" data-fancybox-group="gallery_wallpapers" href="gallery/wallpapers/01.jpg" target="_blank"><img src="gallery/wallpapers/01s.jpg" alt=""></a><a class="gallery_pics_notfancy" data-fancybox-group="gallery_wallpapers" href="gallery/wallpapers/02.jpg" target="_blank"><img src="gallery/wallpapers/02s.jpg" alt=""></a><a class="gallery_pics_notfancy" data-fancybox-group="gallery_wallpapers" href="gallery/wallpapers/03.jpg" target="_blank"><img src="gallery/wallpapers/03s.jpg" alt=""></a><a class="gallery_pics_notfancy" data-fancybox-group="gallery_wallpapers" href="gallery/wallpapers/04.jpg" target="_blank"><img src="gallery/wallpapers/04s.jpg" alt=""></a><a class="gallery_pics_notfancy" data-fancybox-group="gallery_wallpapers" href="gallery/wallpapers/05.jpg" target="_blank"><img src="gallery/wallpapers/05s.jpg" alt=""></a><a class="gallery_pics_notfancy" data-fancybox-group="gallery_wallpapers" href="gallery/wallpapers/06.jpg" target="_blank"><img src="gallery/wallpapers/06s.jpg" alt=""></a><a class="gallery_pics_notfancy" data-fancybox-group="gallery_wallpapers" href="gallery/wallpapers/07.jpg" target="_blank"><img src="gallery/wallpapers/07s.jpg" alt=""></a><a class="gallery_pics_notfancy" data-fancybox-group="gallery_wallpapers" href="gallery/wallpapers/08.jpg" target="_blank"><img src="gallery/wallpapers/08s.jpg" alt=""></a><a class="gallery_pics_notfancy" data-fancybox-group="gallery_wallpapers" href="gallery/wallpapers/09.jpg" target="_blank"><img src="gallery/wallpapers/09s.jpg" alt=""></a></p>
+			<div class="galleryHDsub">(1920&times;1080, откроются в новом окне)</div>
 		</div>
-		<div class="aboutContent_rc">
-			<a class="gallery_news" data-fancybox-group="about_poster" href="media/about_poster.jpg"><img src="media/about_poster_s.jpg" alt=""></a>
+		<div class="galleryContent_srl">
+			<h4>Постеры</h4>
+			<p><a class="gallery_pics" data-fancybox-group="gallery_posters" href="gallery/posters/01.jpg"><img src="gallery/posters/01s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_posters" href="gallery/posters/02.jpg"><img src="gallery/posters/02s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_posters" href="gallery/posters/03.jpg"><img src="gallery/posters/03s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_posters" href="gallery/posters/04.jpg"><img src="gallery/posters/04s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_posters" href="gallery/posters/05.jpg"><img src="gallery/posters/05s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_posters" href="gallery/posters/06.jpg"><img src="gallery/posters/06s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_posters" href="gallery/posters/07.jpg"><img src="gallery/posters/07s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_posters" href="gallery/posters/08.jpg"><img src="gallery/posters/08s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_posters" href="gallery/posters/09.jpg"><img src="gallery/posters/09s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_posters" href="gallery/posters/10.jpg"><img src="gallery/posters/10s.jpg" alt=""></a></p>
 		</div>
 	</div>
+
+	<div class="galleryContent">
+		<h4>Фотографии</h4>
+		<p><a class="gallery_pics" data-fancybox-group="gallery_photos" href="gallery/photos/01.jpg"><img src="gallery/photos/01s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_photos" href="gallery/photos/02.jpg"><img src="gallery/photos/02s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_photos" href="gallery/photos/03.jpg"><img src="gallery/photos/03s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_photos" href="gallery/photos/04.jpg"><img src="gallery/photos/04s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_photos" href="gallery/photos/05.jpg"><img src="gallery/photos/05s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_photos" href="gallery/photos/06.jpg"><img src="gallery/photos/06s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_photos" href="gallery/photos/07.jpg"><img src="gallery/photos/07s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_photos" href="gallery/photos/08.jpg"><img src="gallery/photos/08s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_photos" href="gallery/photos/09.jpg"><img src="gallery/photos/09s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_photos" href="gallery/photos/10.jpg"><img src="gallery/photos/10s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_photos" href="gallery/photos/11.jpg"><img src="gallery/photos/11s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_photos" href="gallery/photos/12.jpg"><img src="gallery/photos/12s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_photos" href="gallery/photos/13.jpg"><img src="gallery/photos/13s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_photos" href="gallery/photos/14.jpg"><img src="gallery/photos/14s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_photos" href="gallery/photos/15.jpg"><img src="gallery/photos/15s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_photos" href="gallery/photos/16.jpg"><img src="gallery/photos/16s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_photos" href="gallery/photos/17.jpg"><img src="gallery/photos/17s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_photos" href="gallery/photos/18.jpg"><img src="gallery/photos/18s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_photos" href="gallery/photos/19.jpg"><img src="gallery/photos/19s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_photos" href="gallery/photos/20.jpg"><img src="gallery/photos/20s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_photos" href="gallery/photos/21.jpg"><img src="gallery/photos/21s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_photos" href="gallery/photos/22.jpg"><img src="gallery/photos/22s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_photos" href="gallery/photos/23.jpg"><img src="gallery/photos/23s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_photos" href="gallery/photos/24.jpg"><img src="gallery/photos/24s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_photos" href="gallery/photos/25.jpg"><img src="gallery/photos/25s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_photos" href="gallery/photos/26.jpg"><img src="gallery/photos/26s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_photos" href="gallery/photos/27.jpg"><img src="gallery/photos/27s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_photos" href="gallery/photos/28.jpg"><img src="gallery/photos/28s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_photos" href="gallery/photos/29.jpg"><img src="gallery/photos/29s.jpg" alt=""></a><a class="gallery_pics" data-fancybox-group="gallery_photos" href="gallery/photos/30.jpg"><img src="gallery/photos/30s.jpg" alt=""></a></p>
+	</div>
+
 </div>
 
 
@@ -86,12 +81,13 @@
 <script type="text/javascript" src="js/jquery.fancybox-media.js?v=1.0.4"></script>
 <script type="text/javascript">
 $(document).ready(function() {
-$('.gallery_news').fancybox({
+$('.gallery_pics').fancybox({
 //prevEffect : 'none',
 //nextEffect : 'none',
 //closeBtn  : false,
 //arrows    : false,
 nextClick : false,
+'margin' : 50,
 helpers : {thumbs : {width  : 50, height : 50}}
 });
 $('.videos_news').fancybox({
