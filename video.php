@@ -22,11 +22,6 @@
 
 
 
-<style type="text/css">
-
-
-</style>
-
 
 <div class="videoContentWrap clearfix">
 	<div class="videoLocket noSelect">&nbsp;</div>
