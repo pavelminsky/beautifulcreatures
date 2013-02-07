@@ -170,12 +170,12 @@ a.gallery_pics:hover, .gallery_pics_notfancy:hover {border: 1px solid #5db3e1; b
 
 .videoContentWrap {position: relative; top: -100px; width: 96%; max-width: 1200px; margin: -80px auto 20px auto; z-index: 4;}
 
-.videoContent {float: right; width: 98%; margin: 5px auto 10px auto; text-align: center; font-size: 120%; text-shadow: 0px -1px 2px #0d293a;}
+.videoContent {float: right; width: 98%; margin: 5px auto 10px auto; text-align: center; font-size: 120%; text-shadow: 0px -1px 2px #0d293a; border: 1px solid blue;}
 .videoContent_phrase {float: right; width: 52%; overflow: hidden; margin: 0 auto; text-align: left;}
 
 .videoContent_frl {float: left; width: 43%; overflow: hidden; margin: 0 auto; text-align: right;}
-.videoContent_frr {float: right; width: 55%; overflow: hidden; margin: 0 auto; text-align: left;}
-.videoContent_sr {width: 810px; margin: 0 auto; padding-left: 20px; text-align: left;}
+.videoContent_frr {float: left; width: 470px; overflow: hidden; margin: 0 auto; padding: 0 10px 10px 15px; text-align: left; background-image: url('../images/grungePattern.png'); -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; border-top: 1px solid #958a76;}
+.videoContent_sr {width: 804px; margin: 0 auto; padding: 10px; text-align: left; border: 1px solid gray;}
 
 .videoContent h3 {margin-top: 5px; margin-bottom: 15px; font-size: 180%; font-style: italic; color: #dcedf7; text-shadow: 0px -2px 2px #000000;}
 .videoContent p {padding: 5px 0 8px 0;}
