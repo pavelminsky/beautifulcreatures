@@ -6,11 +6,11 @@
 
 
 <div class="pagesAge noSelect">&nbsp;</div>
-<div class="gallerySlogan">Зависть — грех</div>
+<div class="gallerySlogan">За светом<br>скрывается<br>тьма</div>
 
 <div class="mainWrap">
 	<a class="pagesLogoLink noSelect fadeout" href="/"><img class="pagesLogo noSelect" src="images/pagesLogo.png"><img class="pagesLogoHover noSelect" src="images/pagesLogoHover.png"></a>
-	<img class="mainBG noSelect" src="images/emilyBG.jpg">
+	<img class="mainBG noSelect" src="images/emmaBG.jpg">
 	<div class="mainOverlay noSelect">&nbsp;</div>
 	<div class="pagesMenu mainMenu">
 		<div class="menuFadeOut_l noSelect">&nbsp;</div>

@@ -31,13 +31,13 @@
 
 
 
-<li id="newsid0">
+<!--li id="newsid0">
 <div class="newsdate">3 февраля</div>
 <h2 class="newshd">Прекрасный русский трейлер</h2>
 <div class="newsbox">
-<a class="videos_news" data-fancybox-group="newsid0" href="#beautifulcreatures_russian_550"><img src="media/newsid0_01s.jpg" alt=""></a>
+<a class="videos_news" data-fancybox-group="newsid0" href="#beautifulcreatures_russiantrailer2_550"><img src="media/newsid0_01s.jpg" alt=""></a>
 </p>
-<div id="beautifulcreatures_russian_550" style="width: 800px; height: 332px; display: none;"><video class="video-js vjs-default-skin" controls preload="auto" width="800" height="332" poster="video/beautifulcreatures_russian_550.jpg" data-setup="{}"><source src="http://www.beautifulcreaturesmovie.ru/video/beautifulcreatures_russian_550.mp4" type='video/mp4'></video></div>
-</li>
+<div id="beautifulcreatures_russiantrailer2_550" style="width: 800px; height: 332px; display: none;"><video class="video-js vjs-default-skin" controls preload="auto" width="800" height="332" poster="video/beautifulcreatures_russiantrailer2_550.jpg" data-setup="{}"><source src="http://www.beautifulcreaturesmovie.ru/video/beautifulcreatures_russiantrailer2_550.mp4" type='video/mp4'></video></div>
+</li-->
 
 

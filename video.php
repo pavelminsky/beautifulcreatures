@@ -6,10 +6,11 @@
 
 
 <div class="pagesAge noSelect">&nbsp;</div>
+<div class="videoSlogan">Некоторые тайны<br>лучше не раскрывать</div>
 
 <div class="mainWrap">
 	<a class="pagesLogoLink noSelect fadeout" href="/"><img class="pagesLogo noSelect" src="images/pagesLogo.png"><img class="pagesLogoHover noSelect" src="images/pagesLogoHover.png"></a>
-	<img class="mainBG noSelect" src="images/linkBG.jpg">
+	<img class="mainBG noSelect" src="images/ammaBG.jpg">
 	<div class="mainOverlay noSelect">&nbsp;</div>
 	<div class="pagesMenu mainMenu">
 		<div class="menuFadeOut_l noSelect">&nbsp;</div>
@@ -22,53 +23,47 @@
 
 
 <style type="text/css">
-.videoLocket {position: absolute; top: -83px; left: 71%; width: 50px; height: 170px; background-image: url('../images/mainLocket.png'); z-index: 5;}
 
-.aboutContentWrap {position: relative; top: -100px; width: 96%; max-width: 1200px; margin: -80px auto 20px auto; z-index: 4;}
 
-.aboutContent {float: right; width: 98%; margin: 5px auto 15px auto; text-align: center; font-size: 120%; text-shadow: 0px -1px 2px #0d293a;}
-.aboutContent_lc {float: left; width: 45%; overflow: hidden; margin: 0 auto; text-align: right;}
-.aboutContent_rc {float: right; width: 52%; overflow: hidden; margin: 0 auto; text-align: left;}
-
-.aboutContent h3 {margin-top: 5px; margin-bottom: 15px; font-size: 180%; font-style: italic; color: #dcedf7; text-shadow: 0px -2px 2px #000000;}
-.aboutContent p {padding: 5px 0 8px 0;}
-.aboutContent .aboutContent_rc p::first-letter {font-style: bold; font-size: 140%;}
-.aboutContent dl {display: block; clear: both; padding-top: 10px;}
-.aboutContent dl dt {font-size: 80%; color: #9eb3bf;}
-.aboutContent dl dd {font-size: 90%; padding-bottom: 10px;}
 </style>
 
 
-<div class="aboutContentWrap clearfix">
+<div class="videoContentWrap clearfix">
 	<div class="videoLocket noSelect">&nbsp;</div>
-	<div class="aboutContent">
-		<div class="aboutContent_lc">&nbsp;</div>
-		<div class="aboutContent_rc">
-			<h3>Дружба иногда сбивает с толку</h3>
-			<p>Итана Уэйта, считающего дни до своего бегства из Гатлина, преследуют сны о прекрасной девушке, которую он никогда не встречал. Когда красавица Лена приезжает жить в дом на самой старой и самой жуткой из всех плантаций города, Итан безоговорочно влюбляется в нее и целенаправленно старается раскрыть секрет их удивительной связи.</p>
-			<p>Лена Дюкейн отличается от всех, кого когда-либо видел маленький южный город Гатлин, она борется с собой, пытаясь усмирить свою силу и проклятие, веками преследовавшее ее семью. Но даже в разросшихся садах, в мрачных болотах и на разрушенных могильниках позабытого Юга секрет не будет жить вечно.</p>
+
+	<div class="videoContent">
+		<div class="videoContent_frl">&nbsp;</div>
+		<div class="videoContent_frr">
+			<h4>Первый трейлер</h4>
+			<p><a class="videos_items" data-fancybox-group="beautifulcreatures_russiantrailer1_550" href="#beautifulcreatures_russiantrailer1_550"><img src="media/beautifulcreatures_russiantrailer1_550s.jpg" alt=""></a></p>
+			<div id="beautifulcreatures_russiantrailer1_550" style="width: 800px; height: 332px; display: none;"><video class="video-js vjs-default-skin" controls preload="auto" width="800" height="332" poster="video/beautifulcreatures_russiantrailer1_550.jpg" data-setup="{}"><source src="http://www.beautifulcreaturesmovie.ru/video/beautifulcreatures_russiantrailer1_550.mp4" type='video/mp4'></video></div>
 		</div>
 	</div>
-	<div class="aboutContent">
-		<div class="aboutContent_lc">
-			<p><i>Фильм основан на бестселлере Ками Гарсия и Маргарет Штоль «Прекрасные создания». Это экранизация первой книги из серии.</i></p>
-			<dl>
-			<dt>Beautiful Creatures; США, 2013</dt>
-			<dd>Романтический триллер<br>мистика, мелодрама<br>122 мин.</dd>
-			<dt>Режиссер</dt>
-			<dd>Ричард ЛаГравенезе</dd>
-			<dt>Сценаристы</dt>
-			<dd>Ричард ЛаГравенезе, Ками Гарсиа, Маргарет Штоль</dd>
-			<dt>Оператор</dt>
-			<dd>Филипп Русло</dd>
-			<dt>В ролях</dt>
-			<dd>Олден Эренрайк, Элис Энглерт, Джереми Айронс, Виола Дэвис, Эмми Россам, Томас Манн, Эмма Томпсон, Зоя Дойч</dd>
-			</dl>
-		</div>
-		<div class="aboutContent_rc">
-			<a class="gallery_news" data-fancybox-group="about_poster" href="media/about_poster.jpg"><img src="media/about_poster_s.jpg" alt=""></a>
+
+	<div class="videoContent">
+		<div class="videoContent_sr" style="margin-top: -30px;">
+			<h4>Второй трейлер</h4>
+			<p><div id="beautifulcreatures_russiantrailer2_550" style="width: 800px; height: 332px;;"><video class="video-js vjs-default-skin" controls preload="auto" width="800" height="332" poster="video/beautifulcreatures_russiantrailer2_550.jpg" data-setup="{}"><source src="http://www.beautifulcreaturesmovie.ru/video/beautifulcreatures_russiantrailer2_550.mp4" type='video/mp4'></video></div></p>
 		</div>
 	</div>
+
+	<!--div class="videoContent">
+			<h4>Ролики и отрывки</h4>			
+			<p>
+				<div class="videoItemWrap"><a class="videos_items" data-fancybox-group="videos_misc" href="#videos_misc1"><img src="video/videos_misc.jpg" alt=""></a><span>Подпись к ролику.</span></div>
+				<div class="videoItemWrap"><a class="videos_items" data-fancybox-group="videos_misc" href="#videos_misc2"><img src="video/videos_misc.jpg" alt=""></a><span>Подпись к ролику.</span></div>
+				<div class="videoItemWrap"><a class="videos_items" data-fancybox-group="videos_misc" href="#videos_misc3"><img src="video/videos_misc.jpg" alt=""></a><span>Подпись к ролику.</span></div>
+				<div class="videoItemWrap"><a class="videos_items" data-fancybox-group="videos_misc" href="#videos_misc4"><img src="video/videos_misc.jpg" alt=""></a><span>Подпись к ролику.</span></div>
+				<div class="videoItemWrap"><a class="videos_items" data-fancybox-group="videos_misc" href="#videos_misc5"><img src="video/videos_misc.jpg" alt=""></a><span>Подпись к ролику.</span></div>
+				<div class="videoItemWrap"><a class="videos_items" data-fancybox-group="videos_misc" href="#videos_misc6"><img src="video/videos_misc.jpg" alt=""></a><span>Подпись к ролику.</span></div>
+				<div class="videoItemWrap"><a class="videos_items" data-fancybox-group="videos_misc" href="#videos_misc7"><img src="video/videos_misc.jpg" alt=""></a><span>Подпись к ролику.</span></div>
+				<div class="videoItemWrap"><a class="videos_items" data-fancybox-group="videos_misc" href="#videos_misc8"><img src="video/videos_misc.jpg" alt=""></a><span>Подпись к ролику.</span></div>
+			</p>
+			
+			<div id="videos_misc1" style="width: 500px; height: 208px; display: none;"><video class="video-js vjs-default-skin" controls preload="auto" width="500" height="208" data-setup="{}"><source src="http://www.beautifulcreaturesmovie.ru/video/beautifulcreatures_russiantrailer1_550.mp4" type='video/mp4'></video></div>
+			
+	</div-->
+
 </div>
 
 
@@ -108,12 +103,13 @@ $('.gallery_news').fancybox({
 nextClick : false,
 helpers : {thumbs : {width  : 50, height : 50}}
 });
-$('.videos_news').fancybox({
+$('.videos_items').fancybox({
 //prevEffect : 'none',
 //nextEffect : 'none',
 //closeBtn  : false,
 arrows    : false,
 nextClick : false,
+'margin' : 50,
 helpers : {thumbs : {width  : 90, height : 50}}
 });
 });
