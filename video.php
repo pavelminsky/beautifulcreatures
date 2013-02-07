@@ -36,13 +36,14 @@
 	</div>
 
 	<div class="videoContent">
-		<div class="videoContent_sr" style="margin-top: -30px;">
+		<div class="videoContent_sr">
 			<h4>Второй трейлер</h4>
 			<p><div id="beautifulcreatures_russiantrailer2_550" style="width: 800px; height: 332px;;"><video class="video-js vjs-default-skin" controls preload="auto" width="800" height="332" poster="video/beautifulcreatures_russiantrailer2_550.jpg" data-setup="{}"><source src="http://www.beautifulcreaturesmovie.ru/video/beautifulcreatures_russiantrailer2_550.mp4" type='video/mp4'></video></div></p>
 		</div>
 	</div>
 
 	<!--div class="videoContent">
+		<div class="videosMiscWrap">
 			<h4>Ролики и отрывки</h4>			
 			<p>
 				<div class="videoItemWrap"><a class="videos_items" data-fancybox-group="videos_misc" href="#videos_misc1"><img src="video/videos_misc.jpg" alt=""></a><span>Подпись к ролику.</span></div>
@@ -56,7 +57,8 @@
 			</p>
 			
 			<div id="videos_misc1" style="width: 500px; height: 208px; display: none;"><video class="video-js vjs-default-skin" controls preload="auto" width="500" height="208" data-setup="{}"><source src="http://www.beautifulcreaturesmovie.ru/video/beautifulcreatures_russiantrailer1_550.mp4" type='video/mp4'></video></div>
-			
+
+		</div>	
 	</div-->
 
 </div>
