@@ -1,46 +1,45 @@
 <?php include ("header_include.php"); ?>
-<body id="index">
+<body id="news">
 
 <noscript><style>.dim {display: none;} .mainSlogan {display: none;} .newsList .newsbox {display: block;}</style><div style="position: absolute; width: 500px; height: 120px; z-index: 9999; top: -5px; left: 50%; margin-left: -250px;"><img src="images/noscript.png" alt="В вашем браузере отключен JavaScript"></div></noscript>
 <div class="dim">&nbsp;</div>
 
 
 
+<div class="pagesAge noSelect">&nbsp;</div>
+<div class="newsSlogan">Не сопротивляйся<br>искушению</div>
+
 <div class="mainWrap">
-	<img class="mainSlogan noSelect" src="images/mainSlogan.png">
-	<img class="mainLogo noSelect" src="images/mainLogo.png">
-	<img class="mainCast noSelect" src="images/mainCast.png">
-	<img class="mainBG noSelect" src="images/mainBG.jpg">
+	<a class="pagesLogoLink noSelect fadeout" href="/"><img class="pagesLogo noSelect" src="images/pagesLogo.png"><img class="pagesLogoHover noSelect" src="images/pagesLogoHover.png"></a>
+	<img class="mainBG noSelect" src="images/ridleyBG.jpg">
 	<div class="mainOverlay noSelect">&nbsp;</div>
-	<div class="indexMenu mainMenu">
+	<div class="pagesMenu mainMenu">
 		<div class="menuFadeOut_l noSelect">&nbsp;</div>
-		<div class="menuButtons"><a href="/" class="index active fadeout">Главная</a><a href="news.php" class="news fadeout">Новости</a><a href="javascript:void(0)" class="books disabled fadeout">Книги</a><a href="about.php" class="about fadeout">Фильм</a><a href="javascript:void(0)" class="team disabled fadeout">Команда</a><a href="video.php" class="video fadeout">Видео</a><a href="gallery.php" class="gallery fadeout">Кадры</a></div>
+		<div class="menuButtons"><a href="/" class="index fadeout">Главная</a><a href="javascript:void(0)" class="news active fadeout">Новости</a><a href="javascript:void(0)" class="books disabled fadeout">Книги</a><a href="about.php" class="about fadeout">Фильм</a><a href="javascript:void(0)" class="team disabled fadeout">Команда</a><a href="video.php" class="video fadeout">Видео</a><a href="gallery.php" class="gallery fadeout">Кадры</a></div>
 		<div class="menuFadeOut_r noSelect">&nbsp;</div>
 	</div>
+	<div class="pagesMenuShadow noSelect">&nbsp;</div>
 </div>
 
 
 
-<div class="mainRoyal clearfix">
-	<div class="mainLocket noSelect">&nbsp;</div>
+<div class="newsRoyal clearfix">
+	<div class="newsLocket noSelect">&nbsp;</div>
 	<div class="royalFadeOut_l noSelect">&nbsp;</div>
 
-	<div class="mainContent">
-		<div class="mainContent_lc">
-			<img class="date noSelect" src="images/mainDate.png"><br>
-			<img class="age noSelect" src="images/age.png">
-		</div>
-		<div class="mainContent_rc newsList">
-			<!--h3>Новости</h3-->
+	<div class="newsContent">
+		<div class="newsContent_lc">&nbsp;</div>
+		<div class="newsContent_rc newsList">
 			<ul>
 			<?php include ("news_include.php"); ?>
 			</ul>
-			<p class="newsMore"><a href="news.php" class="fadeout">Все новости</a> &rarr;</p>
 		</div>
 	</div>
 
 	<div class="royalFadeOut_r noSelect">&nbsp;</div>
 </div>
+
+
 
 
 
@@ -75,7 +74,6 @@ $('.gallery_news').fancybox({
 //closeBtn  : false,
 //arrows    : false,
 nextClick : false,
-'margin' : 50,
 helpers : {thumbs : {width  : 50, height : 50}}
 });
 $('.videos_news').fancybox({

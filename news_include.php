@@ -11,7 +11,7 @@
 <li id="newsid1">
 <div class="newsdate">4 февраля</div>
 <h2 class="newshd">Москву посетили &laquo;Прекрасные создания&raquo;</h2>
-<div class="newsbox" style="display: block;">
+<div class="newsbox">
 <p>Исполнители ролей в фильме «Прекрасные создания» — Олден Эренрайк и Эмми Россам — заглянули на несколько дней в заснеженную Москву в рамках промо-тура фильма.</p>
 <p>18 января прошёл закрытый пресс-показ, на котором аккредитованные на интервью журналисты смогли посмотреть фильм первыми. А 19 января в гостинице «Метрополь», где остановились артисты, прошел фото-колл и пресс-джанкет, на котором актёры ответили на вопросы журналистов.</p>
 <p>Все остались довольны визитом: журналисты знакомством с молодыми незаурядными талантами (Эмми — прекрасная певица, работавшая на одной сцене с Хворостовским, а Олден — образованный актёр, восхищающийся Станиславским), а актёры визитом в «зимнюю сказку».</p>
@@ -31,13 +31,27 @@
 
 
 
-<!--li id="newsid0">
+<li id="newsid0">
 <div class="newsdate">3 февраля</div>
 <h2 class="newshd">Прекрасный русский трейлер</h2>
 <div class="newsbox">
 <a class="videos_news" data-fancybox-group="newsid0" href="#beautifulcreatures_russiantrailer2_550"><img src="media/newsid0_01s.jpg" alt=""></a>
 </p>
 <div id="beautifulcreatures_russiantrailer2_550" style="width: 800px; height: 332px; display: none;"><video class="video-js vjs-default-skin" controls preload="auto" width="800" height="332" poster="video/beautifulcreatures_russiantrailer2_550.jpg" data-setup="{}"><source src="http://www.beautifulcreaturesmovie.ru/video/beautifulcreatures_russiantrailer2_550.mp4" type='video/mp4'></video></div>
-</li-->
+</li>
 
 
+
+
+<!-- ======================================================================== -->
+<!-- Must be under news! -->
+<script type="text/javascript">
+jQuery(".newshd").click( function(){
+    var newsbox = jQuery(this).next();
+    if( newsbox.is(":visible") ){
+        newsbox.slideUp();   
+    }else{
+        newsbox.slideDown();   
+    }
+});
+</script>

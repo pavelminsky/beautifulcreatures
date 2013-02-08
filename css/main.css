@@ -30,8 +30,8 @@ body.wide {font-size: 80%;}
 body.narrow {font-size: 70%;}
 body.extraNarrow {font-size: 60%;}
 
-a:link {color: #eec167;}
-a:visited {color: #bea675;}
+a:link, a:visited {color: #eec167;}
+/*a:visited {color: #bea675;}*/
 a:hover {color: #ffdd98; text-shadow: 0px -4px 8px #a98e57;}
 
 .wrap404 {width: 800px; margin: 0 auto; text-align: center;}
@@ -96,17 +96,49 @@ a:hover {color: #ffdd98; text-shadow: 0px -4px 8px #a98e57;}
 
 
 
-/* News list */
-.newsList ul li {padding-bottom: 25px;}
-.newsList .newsdate {font-size: 100%; color: #e0f5ff; text-shadow: 0px -2px 2px #061d2b;}
-.newsList .newshd {position: relative; display: inline-block; cursor: pointer; margin-bottom: 5px; font-size: 160%; font-style: italic; color: #abd0e5; border-bottom: 1px dotted #abd0e5; text-shadow: 0px -2px 2px #000000;}
-.newsList .newshd:hover {color: #d5edfb; border-bottom: 1px dotted #c2e1f3; text-shadow: 0px -4px 8px #407ba4;}
-.newsList .newsbox {display: none; font-size: 120%; text-shadow: 0px -1px 2px #0d293a;}
+/* News include list */
+.newsList .newsdate {font-size: 100%; text-shadow: 0px -2px 2px #050d12;}
+.newsList .newshd {position: relative; display: inline-block; margin-bottom: 5px; padding-top: 5px; line-height: 100%; font-style: italic; text-shadow: 0px -2px 2px #000000;}
+.newsList .newsbox {font-size: 120%; text-shadow: 0px -1px 2px #0d293a;}
 .newsList .newsbox p {padding: 5px 10px 5px 0px;}
 .newsList .newsbox p:first-child::first-letter {font-style: bold; font-size: 140%;}
-.newsList .newsbox div.newsnote {padding: 10px 10px 10px 0; font-style: italic; font-size: 90%; color: #9eb4bc;}
-a.gallery_news, a.videos_news {display: inline-block; overflow: hidden; text-align: center; vertical-align: top; margin: 5px 5px 5px 0; border: 2px solid #337294;}
-a.gallery_news:hover, a.videos_news:hover {border: 2px solid #5db3e1;}
+.newsList .newsbox div.newsnote {padding: 10px 10px 10px 0; font-style: italic; font-size: 90%;}
+a.gallery_news, a.videos_news {display: inline-block; overflow: hidden; text-align: center; vertical-align: top; margin: 5px 5px 5px 0;}
+
+body#index .newsbox {display: none;}
+body#index .newsdate {color: #e0f5ff;}
+body#index .newshd {cursor: pointer; color: #abd0e5; border-bottom: 1px dotted #abd0e5;}
+body#index .newshd:hover {color: #d5edfb; border-bottom: 1px dotted #c2e1f3; text-shadow: 0px -4px 8px #407ba4;}
+body#index .newsList ul li {padding-bottom: 15px;}
+body#index .newshd {font-size: 160%;}
+body#index .newsnote {color: #9eb4bc;}
+body#index a.gallery_news, body#index a.videos_news {border: 2px solid #337294;}
+body#index a.gallery_news:hover, body#index a.videos_news:hover {border: 2px solid #5db3e1;}
+.mainContent_rc h3 {font-size: 160%; padding-bottom: 15px; color: #baddee; text-shadow: 0px -2px 2px #061d2b;}
+.mainContent .newsMore {padding-top: 10px; font-size: 120%;}
+
+
+
+
+/* News */
+body#news .newsbox {display: block;}
+body#news .newsdate {color: #e7be78;}
+body#news .newshd {color: #f0db9e;}
+body#news .newshd:hover {color: #f0db9e;}
+body#news .newsList ul li {margin-bottom: 40px; padding-bottom: 5px; border-bottom: 1px dashed #715e3c;}
+body#news .newshd {font-size: 180%;}
+body#news .newsbox p {color: #dedaca;}
+body#news .newsnote {color: #d1bf84;}
+body#news a.gallery_news, body#news a.videos_news {border: 2px solid #946533;}
+body#news a.gallery_news:hover, body#news a.videos_news:hover {border: 2px solid #db9d5a;}
+
+.newsLocket {position: absolute; top: -43px; left: 25%; width: 50px; height: 170px; background-image: url('../images/mainLocket.png'); z-index: 5;}
+.newsSlogan {position: absolute; top: 58px; left: 7.5%; z-index: 6; width: 180px; text-align: right; font-size: 130%; font-style: italic; color: #ecba84; text-shadow: 1px 1px 2px #000000;}
+
+.newsRoyal {position: relative; top: -120px; width: 96%; max-width: 1200px; min-height: 320px; margin: -100px auto 10px auto; z-index: 4; background: #000000 url('../images/newsRoyal.png') center top repeat-x;}
+.newsContent {float: left; width: 86%; margin: 40px auto 20px auto; text-align: center;}
+.newsContent_rc {float: left; width: 65%; overflow: hidden; margin: 0 auto; text-align: left;}
+.newsContent_lc {float: left; width: 31%; overflow: hidden; margin: 0 auto; text-align: center;}
 
 
 
@@ -150,14 +182,11 @@ a.gallery_pics:hover, .gallery_pics_notfancy:hover {border: 1px solid #5db3e1; b
 
 .galleryContentWrap {position: relative; top: -100px; width: 96%; max-width: 1200px; margin: -90px auto 20px auto; z-index: 4;}
 .galleryContent {float: right; width: 98%; margin: 5px auto 15px auto; text-align: center; font-size: 120%; text-shadow: 0px -1px 2px #0d293a;}
-
 .galleryContent_frr {float: right; width: 22%; overflow: hidden; margin: 0 auto;}
 .galleryContent_frl {float: right; width: 670px; overflow: hidden; margin: 0 auto; text-align: right; padding: 0 10px 0 10px; background: url('../images/blockPatternBlue.png') top left repeat-x; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border-top: 1px solid #6e78a5;}
 .galleryContent_srr {float: right; width: 47%; overflow: hidden; margin: 0 auto; text-align: center; background: url('../images/blockPatternBlue.png') top left repeat-x; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border-top: 1px solid #525a7c;}
 .galleryContent_srl {float: left; width: 52%; overflow: hidden; margin: 0 auto; text-align: center; background: url('../images/blockPatternBlue.png') top left repeat-x; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border-top: 1px solid #525a7c;}
-
 .galleryContent_srr_Safe, .galleryContent_srl_Safe {padding: 0 10px 10px 10px;}
-
 .galleryContent_tr {padding: 10px; background: url('../images/blockPatternBlue.png') top left repeat-x; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border-top: 1px solid #424864;}
 
 .galleryContent h3 {margin-top: 5px; margin-bottom: 20px; font-size: 180%; font-style: italic; color: #dcedf7; text-shadow: 0px -2px 2px #000000;}
@@ -173,20 +202,16 @@ a.gallery_pics:hover, .gallery_pics_notfancy:hover {border: 1px solid #5db3e1; b
 .videoSlogan {position: absolute; top: 50px; left: 10%; z-index: 6; width: 180px; text-align: right; font-size: 130%; font-style: italic; color: #a68aa1; text-shadow: 1px 1px 2px #000000;}
 
 .videoContentWrap {position: relative; top: -100px; width: 96%; max-width: 1200px; margin: -80px auto 20px auto; z-index: 4;}
-
 .videoContent {float: right; width: 98%; margin: 5px auto 10px auto; text-align: center; font-size: 120%; text-shadow: 0px -1px 2px #0d293a;}
 .videoContent_phrase {float: right; width: 52%; overflow: hidden; margin: 0 auto; text-align: left;}
-
 .videoContent_frl {float: left; width: 43%; overflow: hidden; margin: 0 auto; text-align: right;}
 .videoContent_frr {float: left; width: 470px; overflow: hidden; margin: 0 auto; padding: 0 10px 10px 15px; text-align: left; background: url('../images/blockPatternRed.png') top left repeat-x; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; border-top: 1px solid #ae9363;}
 .videoContent_sr {width: 818px; margin: 0 auto; padding: 5px 10px 10px 17px; text-align: left; background: url('../images/blockPatternRed.png') top left repeat-x; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border-top: 1px solid #6c5244;}
-
 .videosMiscWrap {background: url('../images/blockPatternRed.png') top left repeat-x; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border-top: 1px solid #433026;}
 
 .videoContent h3 {margin-top: 5px; margin-bottom: 15px; font-size: 180%; font-style: italic; color: #dcedf7; text-shadow: 0px -2px 2px #000000;}
 .videoContent p {padding: 5px 0 8px 0;}
 .videoContent .videoContent_rc p::first-letter {font-style: bold; font-size: 140%;}
-
 .videoContent h4 {padding-top: 10px; padding-right: 5px; padding-left: 5px; margin-bottom: 2px; font-size: 150%; font-style: italic; color: #fad9a3; text-shadow: 0px -2px 2px #000000;}
 .videoHDsub {font-size: 85%; color: #9eb3bf; padding-right: 5px; padding-left: 5px;}
 
@@ -197,6 +222,31 @@ a.videos_items:hover {border: 2px solid #f2a24e;}
 
 .videoItemWrap {display: inline-block; width: 180px; min-height: 130px; vertical-align: top; margin-bottom: 15px;}
 .videoItemWrap span {font-size: 85%; color: #9eb3bf; display: block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

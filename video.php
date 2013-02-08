@@ -1,4 +1,5 @@
 <?php include ("header_include.php"); ?>
+<body id="video">
 
 <noscript><style>.dim {display: none;} .mainSlogan {display: none;} .newsList .newsbox {display: block;}</style><div style="position: absolute; width: 500px; height: 120px; z-index: 9999; top: -5px; left: 50%; margin-left: -250px;"><img src="images/noscript.png" alt="В вашем браузере отключен JavaScript"></div></noscript>
 <div class="dim">&nbsp;</div>
@@ -14,7 +15,7 @@
 	<div class="mainOverlay noSelect">&nbsp;</div>
 	<div class="pagesMenu mainMenu">
 		<div class="menuFadeOut_l noSelect">&nbsp;</div>
-		<div class="menuButtons"><a href="/" class="index fadeout">Главная</a><a href="javascript:void(0)" class="news disabled fadeout">Новости</a><a href="javascript:void(0)" class="books disabled fadeout">Книги</a><a href="about.php" class="about fadeout">Фильм</a><a href="javascript:void(0)" class="team disabled fadeout">Команда</a><a href="javascript:void(0)" class="video active fadeout">Видео</a><a href="gallery.php" class="gallery fadeout">Кадры</a></div>
+		<div class="menuButtons"><a href="/" class="index fadeout">Главная</a><a href="news.php" class="news fadeout">Новости</a><a href="javascript:void(0)" class="books disabled fadeout">Книги</a><a href="about.php" class="about fadeout">Фильм</a><a href="javascript:void(0)" class="team disabled fadeout">Команда</a><a href="javascript:void(0)" class="video active fadeout">Видео</a><a href="gallery.php" class="gallery fadeout">Кадры</a></div>
 		<div class="menuFadeOut_r noSelect">&nbsp;</div>
 	</div>
 	<div class="pagesMenuShadow noSelect">&nbsp;</div>

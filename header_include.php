@@ -58,4 +58,4 @@ $(function(){
 });
 </script>
 
-</head><body>
+</head>
