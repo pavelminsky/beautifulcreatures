@@ -7,15 +7,15 @@
 
 
 <div class="pagesAge noSelect">&nbsp;</div>
-<div class="aboutSlogan">За любовь придется<br>дорого заплатить</div>
+<div class="aboutSlogan">Тьма надвигается</div>
 
 <div class="mainWrap">
 	<a class="pagesLogoLink noSelect fadeout" href="/"><img class="pagesLogo noSelect" src="images/pagesLogo.png"><img class="pagesLogoHover noSelect" src="images/pagesLogoHover.png"></a>
-	<img class="mainBG noSelect" src="images/ethanBG.jpg">
+	<img class="mainBG noSelect" src="images/maconBG.jpg">
 	<div class="mainOverlay noSelect">&nbsp;</div>
 	<div class="pagesMenu mainMenu">
 		<div class="menuFadeOut_l noSelect">&nbsp;</div>
-		<div class="menuButtons"><a href="/" class="index fadeout">Главная</a><a href="news.php" class="news fadeout">Новости</a><a href="javascript:void(0)" class="books disabled fadeout">Книги</a><a href="javascript:void(0)" class="about active fadeout">Фильм</a><a href="javascript:void(0)" class="team disabled fadeout">Команда</a><a href="video.php" class="video fadeout">Видео</a><a href="gallery.php" class="gallery fadeout">Кадры</a></div>
+		<div class="menuButtons"><a href="/" class="index fadeout">Главная</a><a href="news.php" class="news fadeout">Новости</a><a href="books.php" class="books fadeout">Книги</a><a href="javascript:void(0)" class="about active fadeout">Фильм</a><a href="team.php" class="team fadeout">Команда</a><a href="video.php" class="video fadeout">Видео</a><a href="gallery.php" class="gallery fadeout">Кадры</a></div>
 		<div class="menuFadeOut_r noSelect">&nbsp;</div>
 	</div>
 	<div class="pagesMenuShadow noSelect">&nbsp;</div>

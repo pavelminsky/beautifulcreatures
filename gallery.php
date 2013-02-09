@@ -15,7 +15,7 @@
 	<div class="mainOverlay noSelect">&nbsp;</div>
 	<div class="pagesMenu mainMenu">
 		<div class="menuFadeOut_l noSelect">&nbsp;</div>
-		<div class="menuButtons"><a href="/" class="index fadeout">Главная</a><a href="news.php" class="news fadeout">Новости</a><a href="javascript:void(0)" class="books disabled fadeout">Книги</a><a href="about.php" class="about fadeout">Фильм</a><a href="javascript:void(0)" class="team disabled fadeout">Команда</a><a href="video.php" class="video fadeout">Видео</a><a href="javascript:void(0)" class="gallery active fadeout">Кадры</a></div>
+		<div class="menuButtons"><a href="/" class="index fadeout">Главная</a><a href="news.php" class="news fadeout">Новости</a><a href="books.php" class="books fadeout">Книги</a><a href="about.php" class="about fadeout">Фильм</a><a href="team.php" class="team fadeout">Команда</a><a href="video.php" class="video fadeout">Видео</a><a href="javascript:void(0)" class="gallery active fadeout">Кадры</a></div>
 		<div class="menuFadeOut_r noSelect">&nbsp;</div>
 	</div>
 	<div class="pagesMenuShadow noSelect">&nbsp;</div>
