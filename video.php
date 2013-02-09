@@ -43,24 +43,19 @@
 		</div>
 	</div>
 
-	<!--div class="videoContent">
+	<div class="videoContent">
 		<div class="videosMiscWrap">
 			<h4>Ролики и отрывки</h4>			
 			<p>
-				<div class="videoItemWrap"><a class="videos_items" data-fancybox-group="videos_misc" href="#videos_misc1"><img src="video/videos_misc.jpg" alt=""></a><span>Подпись к ролику.</span></div>
-				<div class="videoItemWrap"><a class="videos_items" data-fancybox-group="videos_misc" href="#videos_misc2"><img src="video/videos_misc.jpg" alt=""></a><span>Подпись к ролику.</span></div>
-				<div class="videoItemWrap"><a class="videos_items" data-fancybox-group="videos_misc" href="#videos_misc3"><img src="video/videos_misc.jpg" alt=""></a><span>Подпись к ролику.</span></div>
-				<div class="videoItemWrap"><a class="videos_items" data-fancybox-group="videos_misc" href="#videos_misc4"><img src="video/videos_misc.jpg" alt=""></a><span>Подпись к ролику.</span></div>
-				<div class="videoItemWrap"><a class="videos_items" data-fancybox-group="videos_misc" href="#videos_misc5"><img src="video/videos_misc.jpg" alt=""></a><span>Подпись к ролику.</span></div>
-				<div class="videoItemWrap"><a class="videos_items" data-fancybox-group="videos_misc" href="#videos_misc6"><img src="video/videos_misc.jpg" alt=""></a><span>Подпись к ролику.</span></div>
-				<div class="videoItemWrap"><a class="videos_items" data-fancybox-group="videos_misc" href="#videos_misc7"><img src="video/videos_misc.jpg" alt=""></a><span>Подпись к ролику.</span></div>
-				<div class="videoItemWrap"><a class="videos_items" data-fancybox-group="videos_misc" href="#videos_misc8"><img src="video/videos_misc.jpg" alt=""></a><span>Подпись к ролику.</span></div>
+				<div class="videoItemWrap"><a class="videos_items" data-fancybox-group="videos_misc" href="#videos_misc1"><img src="video/videos_misc1.jpg" alt=""></a><span>Первый телеролик</span></div>
+				<div class="videoItemWrap"><a class="videos_items" data-fancybox-group="videos_misc" href="#videos_misc2"><img src="video/videos_misc2.jpg" alt=""></a><span>Второй телеролик</span></div>
 			</p>
 			
-			<div id="videos_misc1" style="width: 500px; height: 208px; display: none;"><video class="video-js vjs-default-skin" controls preload="auto" width="500" height="208" data-setup="{}"><source src="http://www.beautifulcreaturesmovie.ru/video/beautifulcreatures_russiantrailer1_550.mp4" type='video/mp4'></video></div>
+			<div id="videos_misc1" style="width: 550px; height: 234px; display: none;"><video class="video-js vjs-default-skin" controls preload="auto" width="550" height="234" poster="video/beautifulcreatures_russiantvspot1_550.jpg" data-setup="{}"><source src="beautifulcreatures_russiantvspot1_550.mp4" type='video/mp4'></video></div>
+			<div id="videos_misc2" style="width: 548px; height: 232px; display: none;"><video class="video-js vjs-default-skin" controls preload="auto" width="548" height="232" poster="video/beautifulcreatures_russiantvspot2_550.jpg" data-setup="{}"><source src="beautifulcreatures_russiantvspot2_550.mp4" type='video/mp4'></video></div>
 
 		</div>	
-	</div-->
+	</div>
 
 </div>
 
