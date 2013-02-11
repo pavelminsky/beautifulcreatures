@@ -243,14 +243,17 @@ a.videos_items:hover {border: 2px solid #f2a24e;}
 
 .teamContent_lc #team_tabs {}
 .teamContent_rc .team_role {display: block; padding: 15px 5px 0 0; font-size: 90%; color: #b4aa8a;}
+.teamContent_rc li {color: #b4aa8a;}
 .teamContent_rc li.active a {margin-left: -12px; font-size: 110%; line-height: 140%; color: #f79a4a !important; cursor: default; text-decoration: none !important;}
 .teamContent_lc .content_title {font-size: 140%; color: #f79a4a;}
-.teamContent_lc .teamWork {padding-left: 10px; line-height: 150%; color: #b4aa8a;}
+.teamContent_lc .teamWork {padding-left: 10px; padding-bottom: 20px; line-height: 150%; color: #b4aa8a;}
 .teamContent_lc .content_photo {display: block; position: absolute; margin-left: -160px; margin-top: 30px; width: 140px; height: 140px;}
 
 
 
 
+
+/* Books */
 
 
 

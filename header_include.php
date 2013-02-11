@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Прекрасные создания. Официальный сайт фильма. В кино с 14 февраля.">
-<meta name="keywords" content="Прекрасные создания, Beautiful Creatures, Джереми Айронс, Эмма Томпсон, Эмми Россум, Томас Манн, Виола Дэвис, Ками Гарсия, Маргарет Штоль, драма, мистика, книга, Beautiful Darkness, Beautiful Chaos, Beautiful Redemption">
+<meta name="keywords" content="Прекрасные создания, Beautiful Creatures, Джереми Айронс, Эмма Томпсон, Эмми Россам, Эмми Россум, Томас Манн, Виола Дэвис, Ками Гарсия, Маргарет Штоль, драма, мистика, книга, Прекрасная тьма, Прекрасный хаос, Прекрасное искупление, Beautiful Darkness, Beautiful Chaos, Beautiful Redemption">
 
 <meta property="og:title" content="Прекрасные создания - официальный сайт фильма">
 <meta property="og:description" content="Прекрасные создания – мистическая драма, основанная на одноименном книжном бестселлере Ками Гарсиа и Маргарет Штоль">

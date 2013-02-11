@@ -1,4 +1,6 @@
 RewriteEngine on
 
+RewriteRule ^([a-z]+)/?$ $1.php
+
 DirectoryIndex index.php
 ErrorDocument 404 http://www.beautifulcreaturesmovie.ru/404/
