@@ -1,6 +1,6 @@
 <?php include ("header_include.php"); ?>
 
-<script type="text/javascript" src="js/jquery.tabify.js"></script>
+<script type="text/javascript" src="/js/jquery.tabify.js"></script>
 <script type="text/javascript">
 // <![CDATA[
 $(document).ready(function () {
@@ -11,7 +11,7 @@ $('#team_tabs').tabify();
 
 <body id="about">
 
-<noscript><style>.dim {display: none;} .mainSlogan {display: none;} .newsList .newsbox {display: block;}</style><div style="position: absolute; width: 500px; height: 120px; z-index: 9999; top: -5px; left: 50%; margin-left: -250px;"><img src="images/noscript.png" alt="В вашем браузере отключен JavaScript"></div></noscript>
+<noscript><style>.dim {display: none;} .mainSlogan {display: none;} .newsList .newsbox {display: block;}</style><div style="position: absolute; width: 500px; height: 120px; z-index: 9999; top: -5px; left: 50%; margin-left: -250px;"><img src="/images/noscript.png" alt="В вашем браузере отключен JavaScript"></div></noscript>
 <div class="dim">&nbsp;</div>
 
 
@@ -20,12 +20,12 @@ $('#team_tabs').tabify();
 <div class="teamSlogan">Некоторые тайны<br>лучше не раскрывать</div>
 
 <div class="mainWrap">
-	<a class="pagesLogoLink noSelect fadeout" href="/"><img class="pagesLogo noSelect" src="images/pagesLogo.png"><img class="pagesLogoHover noSelect" src="images/pagesLogoHover.png"></a>
-	<img class="mainBG noSelect" src="images/ammaBG.jpg">
+	<a class="pagesLogoLink noSelect fadeout" href="/"><img class="pagesLogo noSelect" src="/images/pagesLogo.png"><img class="pagesLogoHover noSelect" src="/images/pagesLogoHover.png"></a>
+	<img class="mainBG noSelect" src="/images/ammaBG.jpg">
 	<div class="mainOverlay noSelect">&nbsp;</div>
 	<div class="pagesMenu mainMenu">
 		<div class="menuFadeOut_l noSelect">&nbsp;</div>
-		<div class="menuButtons"><a href="/" class="index fadeout">Главная</a><a href="news.php" class="news fadeout">Новости</a><a href="books.php" class="books fadeout">Книги</a><a href="about.php" class="about fadeout">Фильм</a><a href="javascript:void(0)" class="team active fadeout">Команда</a><a href="video.php" class="video fadeout">Видео</a><a href="gallery.php" class="gallery fadeout">Кадры</a></div>
+		<div class="menuButtons"><a href="/" class="index fadeout">Главная</a><a href="/news/" class="news fadeout">Новости</a><a href="/books/" class="books fadeout">Книги</a><a href="/about/" class="about fadeout">Фильм</a><a href="/javascript:void(0)" class="team active fadeout">Команда</a><a href="/video/" class="video fadeout">Видео</a><a href="/gallery/" class="gallery fadeout">Кадры</a></div>
 		<div class="menuFadeOut_r noSelect">&nbsp;</div>
 	</div>
 	<div class="pagesMenuShadow noSelect">&nbsp;</div>
@@ -61,7 +61,7 @@ $('#team_tabs').tabify();
 
 		<div class="teamContent_lc">
 				<div id="team_1">
-					<div class="content_photo"><img src="images/teamphoto_01.jpg" alt=""></div>
+					<div class="content_photo"><img src="/images/teamphoto_01.jpg" alt=""></div>
 					<div class="content_title">Олден Эренрайк</div>
 					<p><i>...в роли Итана Лоусона Уэйта — 16-летнего главного героя, по неизвестной причине способного защищать Лену от магии, не являясь при этом «кастером».</i></p>
 					<p>Олден Эренрайк играет с четырёх лет. Одну из короткометражек, где появился юный Олден, однажды заметил Стивен Спилберг — и эта случайность привела актёра в мир телесеририалов. На большой же экран он выбрался через фильмы Фрэнсиса Форда Копполы — сначала <i>«Тетро»</i>, а потом и <i>«Между»</i>.</p>
@@ -69,7 +69,7 @@ $('#team_tabs').tabify();
 					<p class="teamWork">Фильмография:<br>2013 — «В отрыв»<br>2013 — «Голубой жасмин»<br>2013 — «Стокер»<br>2011 — «Между»<br>2009 — «Тетро»</p>
 				</div>
 				<div id="team_2">
-					<div class="content_photo"><img src="images/teamphoto_02.jpg" alt=""></div>
+					<div class="content_photo"><img src="/images/teamphoto_02.jpg" alt=""></div>
 					<div class="content_title">Элис Энглерт</div>
 					<p><i>...в роли Лены Дюкейн, главной героини. Лена — девушка-кастер, чья судьба будет определена в её шестнадцатый день рождения: она окончательно перейдёт либо на сторону добра, либо на сторону зла.</i></p>
 					<p>Кинокарьера Элис Энглерт началась в 11 лет, когда её мать, Джейн Кампион, написала сценарий и срежиссировала один из восьми фрагментов сборника <i>«8»</i>, посвящённого проблемам окружающей среды. Элис исполнила в этом фрагменте главную роль.</p>
@@ -78,7 +78,7 @@ $('#team_tabs').tabify();
 				</div>
 
 				<div id="team_3">
-					<div class="content_photo"><img src="images/teamphoto_03.jpg" alt=""></div>
+					<div class="content_photo"><img src="/images/teamphoto_03.jpg" alt=""></div>
 					<div class="content_title">Виола Дэвис</div>
 					<p><i>...в роли Аммы, провидицы, способной разговаривать с мёртвыми. Для Итана она как бабушка.</i></p>
 					<p>Виола Дэвис — успешная актриса, за свою карьеру получившая множество наград и номинированная на куда большее их количество. В том числе есть и две номинации на «Оскар». Первая — за роль второго плана в фильме 2008 года <i>«Сомнение»</i> с Мерил Стрип. Вторая — за главную роль в фильме <i>«Прислуга»</i> 2011 года.</p>
@@ -86,7 +86,7 @@ $('#team_tabs').tabify();
 					<p class="teamWork">Фильмография:<br>2011 — «Прислуга»<br>2010 — «Рыцарь дня»<br>2009 — «Законопослушный гражданин»<br>2008 — «Сомнение»<br>2002 — «Солярис»</p>
 				</div>
 				<div id="team_4">
-					<div class="content_photo"><img src="images/teamphoto_04.jpg" alt=""></div>
+					<div class="content_photo"><img src="/images/teamphoto_04.jpg" alt=""></div>
 					<div class="content_title">Джереми Айронс</div>
 					<p><i>...в роли Мэйкона Мельхиседека Равенвуда, любимого дяди Лены. Мэйкон — инкуб, принявший сознательное решение питаться не кровью, а людскими снами.</i></p>
 					<p>Джереми Айронс начал работать ассистентом в театре после того, как провалился на вступительных экзаменах в ветеринарную школу.</p>
@@ -96,21 +96,21 @@ $('#team_tabs').tabify();
 					<p class="teamWork">Фильмография:<br>2012 — «Слова»<br>2011 — «Предел риска»<br>2009 — «Розовая пантера — 2»<br>2006 — «Эрагон»<br>2006 — «Внутренняя империя»<br>2005 — «Казанова»<br>2005 — «Царство небесное»<br>1998 — «Человек в железной маске»<br>1995 — «Крепкий орешек — 3»<br>1993 — «М. Баттерфляй»</p>
 				</div>
 				<div id="team_5">
-					<div class="content_photo"><img src="images/teamphoto_05.jpg" alt=""></div>
+					<div class="content_photo"><img src="/images/teamphoto_05.jpg" alt=""></div>
 					<div class="content_title">Эмми Россам</div>
 					<p><i>...в роли Ридли Дюкейн, кузины Лены, прислуживающей её матери, тёмной кастерши и Сирены. Её дар — манипулировать людьми.</i></p>
 					<p>Американская актриса и певица еврейского происхождения. Первыми фильмами, которые принесли ей известность, стали <i>«Ловец песен»</i> (2000), <i>«Американская рапсодия»</i> (2001) и <i>«Апассионата»</i> (2002). Однако настоящее признание мировой общественности пришло к ней лишь после выхода в прокат фильмов <i>«Таинственная река»</i> (2003). В дальнейшем она снялась в экранизации известного мюзикла <i>«Призрак оперы»</i> (2004) и фильмах-катастрофах <i>«Послезавтра»</i> (2004) и <i>«Посейдон»</i> (2006). А в 2010 году Россам вошла в актёрский состав телесериала <i>«Бесстыдники»</i> в качестве исполнительницы главной роли.</p>
 					<p class="teamWork">Фильмография:<br>2009 — «Вызов»<br>2006 — «Посейдон»<br>2004 — «Призрак оперы»<br>2004 — «Послезавтра»<br>2002 — «Аппассионата»<br>2001 — «Американская рапсодия»</p>
 				</div>
 				<div id="team_6">
-					<div class="content_photo"><img src="images/teamphoto_06.jpg" alt=""></div>
+					<div class="content_photo"><img src="/images/teamphoto_06.jpg" alt=""></div>
 					<div class="content_title">Томас Манн</div>
 					<p><i>...в роли Уэсли «Линка» Линкольна, лучшего друга Итана и бойфрэнда Ридли.</i></p>
 					<p>Томас Манн дебютировал в большом кино в 2010 году, снявшись в независимой комедии с Заком Галифианакисом <i>«Это очень забавная история»</i>. Вскоре после этого он исполнил главную роль в успешной комедии <i>«Проект X: Дорвались»</i>, а сейчас его можно увидеть на киноэкранах в боевике <i>«Охотники на ведьм»</i>, где он играет ученика Гензеля (Джереми Реннер).</p>
 					<p class="teamWork">Фильмография:<br>2012 — «Охотники на ведьм»<br>2012 — «Размерчик»<br>2012 — «Проект X: Дорвались»<br>2010 — «Это очень забавная история»</p>
 				</div>
 				<div id="team_7">
-					<div class="content_photo"><img src="images/teamphoto_07.jpg" alt=""></div>
+					<div class="content_photo"><img src="/images/teamphoto_07.jpg" alt=""></div>
 					<div class="content_title">Эмма Томпсон</div>
 					<p><i>...в ролях миссис Линкольн и Сарафины. Одна — мать Линка, пытающаяся добиться исключения Лены из школы. Другая — мать Лены, сильнейшая тёмная кастерша, твёрдо намеренная перетянуть дочь на свою сторону.</i></p>
 					<p>Британская актриса, комик и сценарист, обладательница двух «Оскаров», двух премий BAFTA и двух «Золотых глобусов» за фильмы <i>«Разум и чувства»</i> (за сценарий) и <i>«Говардс Энд»</i> (за актёрскую игру). Кроме того, актриса является лауреатом ТВ-премии BAFTA за телесериалы <i>«Тутти Фрутти»</i> и <i>«Фортуна войны»</i>. Также номинировалась на «Оскар» за роли в фильмах <i>«Остаток дня»</i> и <i>«Во имя отца»</i>.</p>
@@ -118,21 +118,21 @@ $('#team_tabs').tabify();
 					<p class="teamWork">Фильмография:<br>2012 — «Храбрая сердцем»<br>2012 — «Люди в черном — 3»<br>2006 — «Персонаж»<br>2003 — «Реальная любовь»<br>1995 — «Разум и чувства»<br>1993 — «Во имя отца»<br>1993 — «Остаток дня»<br>1992 — «Говардс Энд»</p>
 				</div>
 				<div id="team_8">
-					<div class="content_photo"><img src="images/teamphoto_08.jpg" alt=""></div>
+					<div class="content_photo"><img src="/images/teamphoto_08.jpg" alt=""></div>
 					<div class="content_title">Ричард ЛаГравенезе</div>
 					<p>Американский сценарист и кинорежиссёр. В 1991 году Тэрри Гиллиам снял по его сценарию фильм <i>«Король-рыбак»</i>. Этот фильм принёс Ричарду номинацию на «Оскар», и с тех пор он стабильно работает с известнейшими режиссёрами Голливуда, такими как Альфонсо Куарон (<i>«Маленькая принцесса»</i>), Клинт Иствуд (<i>«Мосты округа Мэдисон»</i>), Роберт Редфорд (<i>«Заклинатель лошадей»</i>)  и Стивен Содерберг (<i>«За кандлябром»</i>). Он же написал сценарий для третьего фильма в серии <i>«Хроники Нарнии»</i>.</p>
 					<p>От работы с другими известными режиссёрами Ричард ЛаГравенезе отвлекается лишь для того, чтобы самостоятельно экранизировать свои сценарии. Среди таких фильмов: трагикомедия <i>«На всю катушку»</i> с Денни ДэВито, социальная драма <i>«Писатели свободы»</i> и экранизация бестселлера <i>«P.S. Я люблю тебя»</i> с Джерардом Батлером.</p>
 					<p class="teamWork">Фильмография:<br>2011 — «Воды слонам!»<br>2007 — «P.S. Я люблю тебя»<br>2007 — «Писатели свободы»<br>2006 — «Париж, я люблю тебя»<br>1995 — «Мосты округа Мэдисон»</p>
 				</div>
 				<div id="team_9">
-					<div class="content_photo"><img src="images/teamphoto_09.jpg" alt=""></div>
+					<div class="content_photo"><img src="/images/teamphoto_09.jpg" alt=""></div>
 					<div class="content_title">Филипп Руссло</div>
 					<p>Французский кинооператор, лауреат трёх премий «Сезар». Также неоднократно номинировался на «Оскара», и получил одного за фильм 1992 года <i>«Там, где течёт река»</i> Роберта Рэдфорда. Самостоятельно снял фильм <i>«Поцелуй змея»</i>.
 					<p>В девяностых отвечал за такую классику, как <i>«Королева Марго»</i>, <i>«Интервью с вампиром»</i> и <i>«Народ против Ларри Флинта»</i>. В первой половине двухтысячных несколько раз работал с Тимом Бёртоном: именно он стоял за камерой фильмов <i>«Планета обезьян»</i>, <i>«Крупная рыба»</i> и <i>«Чарли и шоколадная фабрика»</i>. Позднее снимал эффектные экшены <i>«Константин: Повелитель тьмы»</i> и обе части <i>«Шерлока Холмса»</i> Гая Ричи.</p>
 					<p class="teamWork">Фильмография:<br>2011 — «Шерлок Холмс: Игра теней»<br>2008 — «Шерлок Холмс»<br>2005 — «Константин: Повелитель тьмы»<br>2003 — «Крупная рыба»<br>1996 —  «Народ против Ларри Флинта»<br>1994 — «Интервью с вампиром»</p>
 				</div>
 				<div id="team_10">
-					<div class="content_photo"><img src="images/teamphoto_10.jpg" alt=""></div>
+					<div class="content_photo"><img src="/images/teamphoto_10.jpg" alt=""></div>
 					<div class="content_title">thenewno2</div>
 					<p>thenewno2 — рок-группа из Лондона. Свой первый альбом они выпустили в 2008 году, тогда же их выступление на фестивале «Коачелла» было названо лучшим дебютом фестиваля в журнале Spin.</p>
 					<p>Именно эта группа записала весь саундтрэк к фильму <i>«Прекрасные создания»</i>, что придаёт музыкальному сопровождению фильма не только цельность, но и оригинальный стиль.</p>
@@ -168,9 +168,9 @@ $('#team_tabs').tabify();
 
 
 <!-- Fancybox -->
-<script type="text/javascript" src="js/jquery.fancybox.js?v=2.1.1"></script>
-<script type="text/javascript" src="js/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-<script type="text/javascript" src="js/jquery.fancybox-media.js?v=1.0.4"></script>
+<script type="text/javascript" src="/js/jquery.fancybox.js?v=2.1.1"></script>
+<script type="text/javascript" src="/js/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<script type="text/javascript" src="/js/jquery.fancybox-media.js?v=1.0.4"></script>
 <script type="text/javascript">
 $(document).ready(function() {
 $('.gallery_news').fancybox({

@@ -17,13 +17,13 @@
 <p>Все остались довольны визитом: журналисты знакомством с молодыми незаурядными талантами (Эмми — прекрасная певица, работавшая на одной сцене с Хворостовским, а Олден — образованный актёр, восхищающийся Станиславским), а актёры визитом в «зимнюю сказку».</p>
 <p>Олден и Эмми подписали для «Веста» промо-открытки, постеры кинофильма, а также книги «Прекрасные создания», которые мы с удовольствием предоставим для розыгрышей некоторым СМИ, а также кинотеатрам.</p>
 <p>
-<a class="gallery_news" data-fancybox-group="newsid1" href="media/newsid1_01.jpg"><img src="media/newsid1_01s.jpg" alt=""></a>
-<a class="gallery_news" data-fancybox-group="newsid1" href="media/newsid1_02.jpg"><img src="media/newsid1_02s.jpg" alt=""></a>
-<a class="gallery_news" data-fancybox-group="newsid1" href="media/newsid1_03.jpg"><img src="media/newsid1_03s.jpg" alt=""></a>
-<a class="gallery_news" data-fancybox-group="newsid1" href="media/newsid1_04.jpg"><img src="media/newsid1_04s.jpg" alt=""></a>
-<a class="gallery_news" data-fancybox-group="newsid1" href="media/newsid1_05.jpg"><img src="media/newsid1_05s.jpg" alt=""></a>
-<a class="gallery_news" data-fancybox-group="newsid1" href="media/newsid1_06.jpg"><img src="media/newsid1_06s.jpg" alt=""></a>
-<a class="gallery_news" data-fancybox-group="newsid1" href="media/newsid1_07.jpg"><img src="media/newsid1_07s.jpg" alt=""></a>
+<a class="gallery_news" data-fancybox-group="newsid1" href="/media/newsid1_01.jpg"><img src="/media/newsid1_01s.jpg" alt=""></a>
+<a class="gallery_news" data-fancybox-group="newsid1" href="/media/newsid1_02.jpg"><img src="/media/newsid1_02s.jpg" alt=""></a>
+<a class="gallery_news" data-fancybox-group="newsid1" href="/media/newsid1_03.jpg"><img src="/media/newsid1_03s.jpg" alt=""></a>
+<a class="gallery_news" data-fancybox-group="newsid1" href="/media/newsid1_04.jpg"><img src="/media/newsid1_04s.jpg" alt=""></a>
+<a class="gallery_news" data-fancybox-group="newsid1" href="/media/newsid1_05.jpg"><img src="/media/newsid1_05s.jpg" alt=""></a>
+<a class="gallery_news" data-fancybox-group="newsid1" href="/media/newsid1_06.jpg"><img src="/media/newsid1_06s.jpg" alt=""></a>
+<a class="gallery_news" data-fancybox-group="newsid1" href="/media/newsid1_07.jpg"><img src="/media/newsid1_07s.jpg" alt=""></a>
 </p>
 <div class="newsnote">Фото: Вера Фетищева</div>
 </div>
@@ -35,9 +35,9 @@
 <div class="newsdate">3 февраля</div>
 <h2 class="newshd">Прекрасный русский трейлер</h2>
 <div class="newsbox">
-<a class="videos_news" data-fancybox-group="newsid0" href="#beautifulcreatures_russiantrailer2_550"><img src="media/newsid0_01s.jpg" alt=""></a>
+<a class="videos_news" data-fancybox-group="newsid0" href="#beautifulcreatures_russiantrailer2_550"><img src="/media/newsid0_01s.jpg" alt=""></a>
 </p>
-<div id="beautifulcreatures_russiantrailer2_550" style="width: 800px; height: 332px; display: none;"><video class="video-js vjs-default-skin" controls preload="auto" width="800" height="332" poster="video/beautifulcreatures_russiantrailer2_550.jpg" data-setup="{}"><source src="http://www.beautifulcreaturesmovie.ru/video/beautifulcreatures_russiantrailer2_550.mp4" type='video/mp4'></video></div>
+<div id="beautifulcreatures_russiantrailer2_550" style="width: 800px; height: 332px; display: none;"><video class="video-js vjs-default-skin" controls preload="auto" width="800" height="332" poster="video/beautifulcreatures_russiantrailer2_550.jpg" data-setup="{}"><source src="http://www.beautifulcreaturesmovie.ru/video/beautifulcreatures_russiantrailer2_550.mp4" type='video/mp4'><source src="http://www.beautifulcreaturesmovie.ru/video/beautifulcreatures_russiantrailer2_550.ogv" type='video/ogg'></video></div>
 </li>
 
 

@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Прекрасные создания. Официальный сайт фильма. В кино с 14 февраля.">
-<meta name="keywords" content="Прекрасные создания, Beautiful Creatures, Джереми Айронс, Эмма Томпсон, Эмми Россам, Эмми Россум, Томас Манн, Виола Дэвис, Ками Гарсия, Маргарет Штоль, драма, мистика, книга, Прекрасная тьма, Прекрасный хаос, Прекрасное искупление, Beautiful Darkness, Beautiful Chaos, Beautiful Redemption">
+<meta name="keywords" content="Прекрасные создания, Beautiful Creatures, Джереми Айронс, Эмма Томпсон, Эмми Россам, Эмми Россум, Томас Манн, Виола Дэвис, Ками Гарсиа, Маргарет Штоль, драма, мистика, книга, Прекрасная тьма, Прекрасный хаос, Прекрасное искупление, Beautiful Darkness, Beautiful Chaos, Beautiful Redemption">
 
 <meta property="og:title" content="Прекрасные создания - официальный сайт фильма">
 <meta property="og:description" content="Прекрасные создания – мистическая драма, основанная на одноименном книжном бестселлере Ками Гарсиа и Маргарет Штоль">
@@ -19,8 +19,8 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta name="apple-mobile-web-app-title" content="Прекрасно">
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
-<link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png">
 <link rel="shortcut icon" href="http://www.beautifulcreaturesmovie.ru/favicon.ico" type="image/x-icon">
 <link rel="icon" href="http://www.beautifulcreaturesmovie.ru/favicon.ico" type="image/x-icon">
 
@@ -28,18 +28,18 @@
 <meta itemprop="description" content="Прекрасные создания – мистическая драма, основанная на одноименном книжном бестселлере Ками Гарсиа и Маргарет Штоль">
 <meta itemprop="image" content="http://www.beautifulcreaturesmovie.ru/images/share.jpg">
 
-<link rel="stylesheet" href="css/main.css">
-<link rel="stylesheet" type="text/css" href="css/fancybox.css?v=2.1.1" media="screen">
+<link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" type="text/css" href="/css/fancybox.css?v=2.1.1" media="screen">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script type="text/javascript" src="js/init.js"></script>
+<script type="text/javascript" src="/js/init.js"></script>
 <script>
 jQuery(function($) {
 $('.dim').fadeOut(500);
 });
 </script>
 
-<link href="css/video-js.css" rel="stylesheet">
-<script type="text/javascript" src="js/video.js"></script>
+<link href="/css/video-js.css" rel="stylesheet">
+<script type="text/javascript" src="/js/video.js"></script>
 <style type="text/css">
 .vjs-default-skin .vjs-play-progress {background: #005f99;}
 .vjs-default-skin .vjs-load-progress {background: #204d62;}

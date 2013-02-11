@@ -1,7 +1,7 @@
 <?php include ("header_include.php"); ?>
 <body id="about">
 
-<noscript><style>.dim {display: none;} .mainSlogan {display: none;} .newsList .newsbox {display: block;}</style><div style="position: absolute; width: 500px; height: 120px; z-index: 9999; top: -5px; left: 50%; margin-left: -250px;"><img src="images/noscript.png" alt="В вашем браузере отключен JavaScript"></div></noscript>
+<noscript><style>.dim {display: none;} .mainSlogan {display: none;} .newsList .newsbox {display: block;}</style><div style="position: absolute; width: 500px; height: 120px; z-index: 9999; top: -5px; left: 50%; margin-left: -250px;"><img src="/images/noscript.png" alt="В вашем браузере отключен JavaScript"></div></noscript>
 <div class="dim">&nbsp;</div>
 
 
@@ -10,12 +10,12 @@
 <div class="aboutSlogan">Тьма надвигается</div>
 
 <div class="mainWrap">
-	<a class="pagesLogoLink noSelect fadeout" href="/"><img class="pagesLogo noSelect" src="images/pagesLogo.png"><img class="pagesLogoHover noSelect" src="images/pagesLogoHover.png"></a>
-	<img class="mainBG noSelect" src="images/maconBG.jpg">
+	<a class="pagesLogoLink noSelect fadeout" href="/"><img class="pagesLogo noSelect" src="/images/pagesLogo.png"><img class="pagesLogoHover noSelect" src="/images/pagesLogoHover.png"></a>
+	<img class="mainBG noSelect" src="/images/maconBG.jpg">
 	<div class="mainOverlay noSelect">&nbsp;</div>
 	<div class="pagesMenu mainMenu">
 		<div class="menuFadeOut_l noSelect">&nbsp;</div>
-		<div class="menuButtons"><a href="/" class="index fadeout">Главная</a><a href="news.php" class="news fadeout">Новости</a><a href="books.php" class="books fadeout">Книги</a><a href="javascript:void(0)" class="about active fadeout">Фильм</a><a href="team.php" class="team fadeout">Команда</a><a href="video.php" class="video fadeout">Видео</a><a href="gallery.php" class="gallery fadeout">Кадры</a></div>
+		<div class="menuButtons"><a href="/" class="index fadeout">Главная</a><a href="/news/" class="news fadeout">Новости</a><a href="/books/" class="books fadeout">Книги</a><a href="javascript:void(0)" class="about active fadeout">Фильм</a><a href="/team/" class="team fadeout">Команда</a><a href="/video/" class="video fadeout">Видео</a><a href="/gallery/" class="gallery fadeout">Кадры</a></div>
 		<div class="menuFadeOut_r noSelect">&nbsp;</div>
 	</div>
 	<div class="pagesMenuShadow noSelect">&nbsp;</div>
@@ -55,7 +55,7 @@
 			</dl>
 		</div>
 		<div class="aboutContent_rc">
-			<a class="gallery_news" data-fancybox-group="about_poster" href="media/about_poster.jpg"><img src="media/about_poster_s.jpg" alt=""></a>
+			<a class="gallery_news" data-fancybox-group="about_poster" href="/media/about_poster.jpg"><img src="/media/about_poster_s.jpg" alt=""></a>
 		</div>
 	</div>
 </div>
@@ -84,9 +84,9 @@
 
 
 <!-- Fancybox -->
-<script type="text/javascript" src="js/jquery.fancybox.js?v=2.1.1"></script>
-<script type="text/javascript" src="js/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-<script type="text/javascript" src="js/jquery.fancybox-media.js?v=1.0.4"></script>
+<script type="text/javascript" src="/js/jquery.fancybox.js?v=2.1.1"></script>
+<script type="text/javascript" src="/js/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<script type="text/javascript" src="/js/jquery.fancybox-media.js?v=1.0.4"></script>
 <script type="text/javascript">
 $(document).ready(function() {
 $('.gallery_news').fancybox({

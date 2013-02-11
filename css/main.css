@@ -40,7 +40,7 @@ a:hover {color: #ffdd98; text-shadow: 0px -4px 8px #a98e57;}
 
 .copy {padding: 0 10px 20px 10px; font-size: 100%; color: #657379; text-align: center; opacity: 0.50; -moz-opacity: 0.850; -khtml-opacity: 0.50; filter: alpha(opacity=50);}
 
-#counters {position: fixed; bottom: -160px; left: 10px; z-index: 1005; width: 140px; height: 180px; text-align: right; background-image:url('../images/counters.png'); background-position: right top; background-repeat: no-repeat;}
+	#counters {position: fixed; bottom: -160px; left: 10px; z-index: 1005; width: 140px; height: 180px; text-align: right; background-image:url('/images/counters.png'); background-position: right top; background-repeat: no-repeat;}
 .counters_list {padding-top: 30px; opacity: 0.40; -moz-opacity: 0.40; -khtml-opacity: 0.40; filter: alpha(opacity=40);}
 .counters_list p {padding: 0; margin: 0; padding-bottom: 6px; font-size: 11px; color: #6b767b;}
 #counters:hover {bottom: 0;}
@@ -55,11 +55,11 @@ a:hover {color: #ffdd98; text-shadow: 0px -4px 8px #a98e57;}
 
 /* Menu */
 .indexMenu {position: absolute; bottom: 80px; z-index: 3; width: 100%; margin: 0 auto; overflow: hidden;}
-.mainMenu {height: 40px; background: #000000 url('../images/menuBG.png') left top repeat-x;}
-.menuFadeOut_l {float: left; width: 5%; height: 40px; background: url('../images/fadeOut_l.png') left top repeat-y;}
-.menuFadeOut_r {float: right; width: 5%; height: 40px; background: url('../images/fadeOut_r.png') right top repeat-y;}
+.mainMenu {height: 40px; background: #000000 url('/images/menuBG.png') left top repeat-x;}
+.menuFadeOut_l {float: left; width: 5%; height: 40px; background: url('/images/fadeOut_l.png') left top repeat-y;}
+.menuFadeOut_r {float: right; width: 5%; height: 40px; background: url('/images/fadeOut_r.png') right top repeat-y;}
 .menuButtons {display: inline-block; width: 86%; margin: 0 auto; height: 40px; text-align: center;}
-.menuButtons a {display: inline-block; width: 110px; height: 40px; margin-right: 2px; background: url('../images/menuButtons.png') left top no-repeat;}
+.menuButtons a {display: inline-block; width: 110px; height: 40px; margin-right: 2px; background: url('/images/menuButtons.png') left top no-repeat;}
 .menuButtons a, .menuButtons a:hover, .menuButtons a:visited, .menuButtons a:active {text-indent: -9999px; text-decoration: none;}
 .menuButtons a.index, .menuButtons a.index.disabled:hover {background-position: 0 0;}
 .menuButtons a.index:hover, .menuButtons a.index.active {background-position: 0 -40px;}
@@ -84,10 +84,10 @@ a:hover {color: #ffdd98; text-shadow: 0px -4px 8px #a98e57;}
 .mainLogo {position: absolute; bottom: 140px; left: 50%; width: 70%; z-index: 2; margin-left: -35%;}
 .mainCast {position: absolute; bottom: 132px; left: 45%; width: 48%; z-index: 2; margin-left: -24%;}
 .mainSlogan {position: absolute; top: 10px; left: 50%; margin-left: -20%; width: 40%; z-index: 3;}
-.mainRoyal {position: relative; top: -80px; width: 96%; max-width: 1200px; min-height: 320px; margin: 0 auto; z-index: 4; background: #000000 url('../images/mainRoyal.png') center top repeat-x;}
-.mainLocket {position: absolute; top: -43px; right: 4%; width: 50px; height: 170px; background-image: url('../images/mainLocket.png'); z-index: 5;}
-.royalFadeOut_l {float: left; width: 5%; min-height: 320px; background: url('../images/fadeOut_l.png') left top repeat-y;}
-.royalFadeOut_r {float: right; width: 5%; min-height: 320px; background: url('../images/fadeOut_r.png') right top repeat-y;}
+.mainRoyal {position: relative; top: -80px; width: 96%; max-width: 1200px; min-height: 320px; margin: 0 auto; z-index: 4; background: #000000 url('/images/mainRoyal.png') center top repeat-x;}
+.mainLocket {position: absolute; top: -43px; right: 4%; width: 50px; height: 170px; background-image: url('/images/mainLocket.png'); z-index: 5;}
+.royalFadeOut_l {float: left; width: 5%; min-height: 320px; background: url('/images/fadeOut_l.png') left top repeat-y;}
+.royalFadeOut_r {float: right; width: 5%; min-height: 320px; background: url('/images/fadeOut_r.png') right top repeat-y;}
 .mainContent {float: left; width: 86%; margin: 40px auto 20px auto; text-align: center;}
 .mainContent_rc {float: left; width: 50%; overflow: hidden; margin: 0 auto; text-align: left;}
 .mainContent_lc {float: left; width: 50%; overflow: hidden; margin: 0 auto; text-align: center;}
@@ -132,7 +132,7 @@ body#news .newsnote {color: #d1bf84;}
 body#news a.gallery_news, body#news a.videos_news {border: 2px solid #946533;}
 body#news a.gallery_news:hover, body#news a.videos_news:hover {border: 2px solid #db9d5a;}
 
-.newsLocket {position: absolute; top: -43px; left: 29%; width: 50px; height: 170px; background-image: url('../images/mainLocket.png'); z-index: 5;}
+.newsLocket {position: absolute; top: -43px; left: 29%; width: 50px; height: 170px; background-image: url('/images/mainLocket.png'); z-index: 5;}
 .newsSlogan {position: absolute; top: 58px; left: 7%; z-index: 6; width: 180px; text-align: right; font-size: 130%; font-style: italic; color: #ecba84; text-shadow: 1px 1px 2px #000000;}
 
 .newsRoyal {position: relative; top: -120px; width: 96%; max-width: 1200px; min-height: 320px; margin: -100px auto 10px auto; z-index: 4;}
@@ -143,19 +143,19 @@ body#news a.gallery_news:hover, body#news a.videos_news:hover {border: 2px solid
 
 
 /* Pages common */
-.pagesAge {position: absolute; top: 20px; right: 20px; z-index: 6; width: 70px; height: 70px; text-align: right; background-image:url('../images/age.png'); background-position: center center; background-repeat: no-repeat;}
+.pagesAge {position: absolute; top: 20px; right: 20px; z-index: 6; width: 70px; height: 70px; text-align: right; background-image:url('/images/age.png'); background-position: center center; background-repeat: no-repeat;}
 
 .pagesLogo {position: absolute; bottom: 284px; left: 60%; width: 30%; z-index: 5; margin-left: -15%;}
 .pagesLogoHover {visibility: hidden; position: absolute; bottom: 288px; left: 60%; width: 30%; z-index: 3; margin-left: -15%;}
 .pagesLogoLink:hover .pagesLogoHover {visibility: visible;}
 
 .pagesMenu {position: absolute; bottom: 220px; z-index: 3; width: 100%; margin: 0 auto; overflow: hidden;}
-.pagesMenuShadow {position: absolute; bottom: 200px; z-index: 3; width: 100%; height: 20px; margin: 0 auto; background: url('../images/pagesMenuShadow.png') left top repeat-x;}
+.pagesMenuShadow {position: absolute; bottom: 200px; z-index: 3; width: 100%; height: 20px; margin: 0 auto; background: url('/images/pagesMenuShadow.png') left top repeat-x;}
 
 
 
 /* About */
-.aboutLocket {position: absolute; top: -83px; left: 43.5%; width: 50px; height: 170px; background-image: url('../images/mainLocket.png'); z-index: 5;}
+.aboutLocket {position: absolute; top: -83px; left: 43.5%; width: 50px; height: 170px; background-image: url('/images/mainLocket.png'); z-index: 5;}
 .aboutSlogan {position: absolute; top: 40px; left: 7.5%; z-index: 6; width: 180px; text-align: right; font-size: 130%; font-style: italic; color: #b2be98; text-shadow: 1px 1px 2px #000000;}
 
 .aboutContentWrap {position: relative; top: -100px; width: 96%; max-width: 1200px; margin: -80px auto 20px auto; z-index: 4;}
@@ -175,7 +175,7 @@ body#news a.gallery_news:hover, body#news a.videos_news:hover {border: 2px solid
 
 /* Gallery */
 .gallerySlogan {position: absolute; top: 50px; left: 7%; z-index: 6; width: 180px; text-align: right; font-size: 130%; font-style: italic; color: #b1afce; text-shadow: 1px 1px 2px #000000;}
-.galleryLocket {position: absolute; top: -73px; right: 14.7%; width: 50px; height: 170px; background-image: url('../images/mainLocket.png'); z-index: 5;}
+.galleryLocket {position: absolute; top: -73px; right: 14.7%; width: 50px; height: 170px; background-image: url('/images/mainLocket.png'); z-index: 5;}
 
 a.gallery_pics, .gallery_pics_notfancy {display: inline-block; overflow: hidden; text-align: center; vertical-align: top; margin: 5px; border: 1px solid #337294;}
 a.gallery_pics:hover, .gallery_pics_notfancy:hover {border: 1px solid #5db3e1; box-shadow: 0px 0px 8px rgba(149,207,236,1); -moz-box-shadow: 0px 0px 8px rgba(149,207,236,1); -webkit-box-shadow: 0px 0px 8px rgba(149,207,236,1);}
@@ -183,11 +183,11 @@ a.gallery_pics:hover, .gallery_pics_notfancy:hover {border: 1px solid #5db3e1; b
 .galleryContentWrap {position: relative; top: -100px; width: 96%; max-width: 1200px; margin: -90px auto 20px auto; z-index: 4;}
 .galleryContent {float: right; width: 98%; margin: 5px auto 15px auto; text-align: center; font-size: 120%; text-shadow: 0px -1px 2px #0d293a;}
 .galleryContent_frr {float: right; width: 22%; overflow: hidden; margin: 0 auto;}
-.galleryContent_frl {float: right; width: 670px; overflow: hidden; margin: 0 auto; text-align: right; padding: 0 10px 0 10px; background: url('../images/blockPatternBlue.png') top left repeat-x; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border-top: 1px solid #6e78a5;}
-.galleryContent_srr {float: right; width: 47%; overflow: hidden; margin: 0 auto; text-align: center; background: url('../images/blockPatternBlue.png') top left repeat-x; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border-top: 1px solid #525a7c;}
-.galleryContent_srl {float: left; width: 52%; overflow: hidden; margin: 0 auto; text-align: center; background: url('../images/blockPatternBlue.png') top left repeat-x; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border-top: 1px solid #525a7c;}
+.galleryContent_frl {float: right; width: 670px; overflow: hidden; margin: 0 auto; text-align: right; padding: 0 10px 0 10px; background: url('/images/blockPatternBlue.png') top left repeat-x; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border-top: 1px solid #6e78a5;}
+.galleryContent_srr {float: right; width: 47%; overflow: hidden; margin: 0 auto; text-align: center; background: url('/images/blockPatternBlue.png') top left repeat-x; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border-top: 1px solid #525a7c;}
+.galleryContent_srl {float: left; width: 52%; overflow: hidden; margin: 0 auto; text-align: center; background: url('/images/blockPatternBlue.png') top left repeat-x; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border-top: 1px solid #525a7c;}
 .galleryContent_srr_Safe, .galleryContent_srl_Safe {padding: 0 10px 10px 10px;}
-.galleryContent_tr {padding: 10px; background: url('../images/blockPatternBlue.png') top left repeat-x; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border-top: 1px solid #424864;}
+.galleryContent_tr {padding: 10px; background: url('/images/blockPatternBlue.png') top left repeat-x; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border-top: 1px solid #424864;}
 
 .galleryContent h3 {margin-top: 5px; margin-bottom: 20px; font-size: 180%; font-style: italic; color: #dcedf7; text-shadow: 0px -2px 2px #000000;}
 .galleryContent h4 {padding-top: 15px; padding-right: 5px; padding-left: 5px; margin-bottom: 2px; font-size: 150%; font-style: italic; color: #dcedf7; text-shadow: 0px -2px 2px #000000;}
@@ -198,16 +198,16 @@ a.gallery_pics:hover, .gallery_pics_notfancy:hover {border: 1px solid #5db3e1; b
 
 
 /* Video */
-.videoLocket {position: absolute; top: -83px; left: 4%; width: 50px; height: 170px; background-image: url('../images/mainLocket.png'); z-index: 5;}
+.videoLocket {position: absolute; top: -83px; left: 4%; width: 50px; height: 170px; background-image: url('/images/mainLocket.png'); z-index: 5;}
 .videoSlogan {position: absolute; top: 50px; left: 7%; z-index: 6; width: 180px; text-align: right; font-size: 130%; font-style: italic; color: #e6d6ae; text-shadow: 1px 1px 2px #000000;}
 
 .videoContentWrap {position: relative; top: -100px; width: 96%; max-width: 1200px; margin: -80px auto 20px auto; z-index: 4;}
 .videoContent {float: right; width: 98%; margin: 5px auto 10px auto; text-align: center; font-size: 120%; text-shadow: 0px -1px 2px #0d293a;}
 .videoContent_phrase {float: right; width: 52%; overflow: hidden; margin: 0 auto; text-align: left;}
 .videoContent_frl {float: left; width: 43%; overflow: hidden; margin: 0 auto; text-align: right;}
-.videoContent_frr {float: left; width: 470px; overflow: hidden; margin: 0 auto; padding: 0 10px 10px 15px; text-align: left; background: url('../images/blockPatternRed.png') top left repeat-x; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; border-top: 1px solid #ae9363;}
-.videoContent_sr {width: 818px; margin: 0 auto; padding: 5px 10px 10px 17px; text-align: left; background: url('../images/blockPatternRed.png') top left repeat-x; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border-top: 1px solid #6c5244;}
-.videosMiscWrap {background: url('../images/blockPatternRed.png') top left repeat-x; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border-top: 1px solid #433026;}
+.videoContent_frr {float: left; width: 470px; overflow: hidden; margin: 0 auto; padding: 0 10px 10px 15px; text-align: left; background: url('/images/blockPatternRed.png') top left repeat-x; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; border-top: 1px solid #ae9363;}
+.videoContent_sr {width: 818px; margin: 0 auto; padding: 5px 10px 10px 17px; text-align: left; background: url('/images/blockPatternRed.png') top left repeat-x; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border-top: 1px solid #6c5244;}
+.videosMiscWrap {background: url('/images/blockPatternRed.png') top left repeat-x; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border-top: 1px solid #433026;}
 
 .videoContent h3 {margin-top: 5px; margin-bottom: 15px; font-size: 180%; font-style: italic; color: #dcedf7; text-shadow: 0px -2px 2px #000000;}
 .videoContent p {padding: 5px 0 8px 0;}
@@ -227,7 +227,7 @@ a.videos_items:hover {border: 2px solid #f2a24e;}
 
 
 /* Team */
-.teamLocket {position: absolute; top: -53px; left: 55%; width: 50px; height: 170px; background-image: url('../images/mainLocket.png'); z-index: 5;}
+.teamLocket {position: absolute; top: -53px; left: 55%; width: 50px; height: 170px; background-image: url('/images/mainLocket.png'); z-index: 5;}
 .teamSlogan {position: absolute; top: 50px; left: 10%; z-index: 6; width: 180px; text-align: right; font-size: 130%; font-style: italic; color: #c8a0c2; text-shadow: 1px 1px 2px #000000;}
 
 .teamContentWrap {position: relative; top: -100px; width: 96%; max-width: 1200px; margin: -110px auto 20px auto; z-index: 4;}
@@ -243,7 +243,6 @@ a.videos_items:hover {border: 2px solid #f2a24e;}
 
 .teamContent_lc #team_tabs {}
 .teamContent_rc .team_role {display: block; padding: 15px 5px 0 0; font-size: 90%; color: #b4aa8a;}
-.teamContent_rc li {color: #b4aa8a;}
 .teamContent_rc li.active a {margin-left: -12px; font-size: 110%; line-height: 140%; color: #f79a4a !important; cursor: default; text-decoration: none !important;}
 .teamContent_lc .content_title {font-size: 140%; color: #f79a4a;}
 .teamContent_lc .teamWork {padding-left: 10px; padding-bottom: 20px; line-height: 150%; color: #b4aa8a;}
@@ -254,7 +253,26 @@ a.videos_items:hover {border: 2px solid #f2a24e;}
 
 
 /* Books */
+.booksLocket {position: absolute; top: -83px; left: 41%; width: 50px; height: 170px; background-image: url('/images/mainLocket.png'); z-index: 5;}
+.booksSlogan {position: absolute; top: 20px; left: 5.5%; z-index: 6; width: 180px; text-align: right; font-size: 130%; font-style: italic; color: #d0e0b0; text-shadow: 1px 1px 2px #000000;}
 
+.booksContentWrap {position: relative; top: -100px; width: 96%; max-width: 1200px; margin: -80px auto 20px auto; z-index: 4;}
+
+.booksContent {float: right; width: 98%; margin: 5px auto 15px auto; text-align: center; font-size: 120%; text-shadow: 0px -1px 2px #0d293a;}
+.booksContent_lc {float: left; width: 44%; overflow: hidden; margin: 150px auto 10px auto; text-align: right;}
+.booksContent_rc {float: right; width: 54%; overflow: hidden; margin: 0 auto; text-align: left;}
+
+.booksContent h3 {margin-top: 5px; margin-bottom: 10px; font-size: 130%; line-height: 110%; font-style: italic; color: #add38a; text-shadow: 0px -2px 2px #000000;}
+.booksContent p {padding: 5px 0 8px 0; color: #d5d9c9;}
+.booksContent .booksIntro {color: #ebefdd; padding-bottom: 25px; margin-top: 3px;}
+.booksContent .booksNote {font-size: 90%; color: #869c7f;}
+.booksContent_lc img {display: inline;}
+
+.booksContent_srl, .booksContent_src, .booksContent_srr {float: left; width: 32%; overflow: hidden; margin: 0 auto; padding-top: 30px; text-align: left;}
+
+.booksContent_srl img, .booksContent_srl h3, .booksContent_srl p {padding-left: 20px;}
+.booksContent_src img, .booksContent_src h3, .booksContent_src p {padding-left: 20px;}
+.booksContent_srr img, .booksContent_srr h3, .booksContent_srr p {padding-left: 20px;}
 
 
 
